@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Radar — 前沿 AI 资讯聚合</title>
+<style>
+/* ===== Reset & Base ===== */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+:root {
+  --bg: #0a0a0f; --bg-card: #12121a; --bg-card-hover: #181825;
+  --border: #1e1e2e; --text: #cdd6f4; --text-muted: #6c7086;
+  --accent: #89b4fa; --accent2: #a6e3a1; --spotlight: #f9e2af;
+  --spotlight-bg: #1e1a0f; --tag-bg: #1e1e2e; --tag-text: #89b4fa;
+  --radius: 8px; --font: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+  --font-mono: "SF Mono", "Fira Code", "JetBrains Mono", monospace;
+}
+body { font-family: var(--font); background: var(--bg); color: var(--text); line-height: 1.6; }
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* ===== Layout ===== */
+.container { max-width: 960px; margin: 0 auto; padding: 0 20px; }
+
+/* ===== Header ===== */
+header {
+  position: sticky; top: 0; z-index: 100;
+  background: var(--bg); border-bottom: 1px solid var(--border);
+  padding: 16px 0; backdrop-filter: blur(12px);
+}
+.header-inner { display: flex; align-items: center; justify-content: space-between; }
+.logo { font-size: 1.5rem; font-weight: 800; letter-spacing: -0.5px; }
+.logo span { color: var(--accent); }
+.header-right { display: flex; align-items: center; gap: 16px; font-size: 0.85rem; color: var(--text-muted); }
+
+/* ===== Stats Bar ===== */
+.stats-bar {
+  display: flex; gap: 12px; flex-wrap: wrap;
+  padding: 20px 0; border-bottom: 1px solid var(--border);
+}
+.stat-card {
+  flex: 1; min-width: 100px;
+  background: var(--bg-card); border: 1px solid var(--border);
+  border-radius: var(--radius); padding: 14px 16px; text-align: center;
+}
+.stat-card.spotlight-stat { border-color: var(--spotlight); background: var(--spotlight-bg); }
+.stat-number { font-size: 1.8rem; font-weight: 700; font-family: var(--font-mono); }
+.stat-label { font-size: 0.75rem; color: var(--text-muted); text-transform: uppercase; margin-top: 2px; }
+.spotlight-stat .stat-number { color: var(--spotlight); }
+
+/* ===== Search & Filter ===== */
+.toolbar { padding: 16px 0; display: flex; gap: 10px; flex-wrap: wrap; }
+.toolbar input, .toolbar select, .toolbar button {
+  background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius);
+  color: var(--text); padding: 8px 14px; font-size: 0.9rem; font-family: var(--font);
+}
+.toolbar input { flex: 1; min-width: 200px; }
+.toolbar input:focus { outline: none; border-color: var(--accent); }
+.toolbar select { cursor: pointer; }
+.toolbar button {
+  cursor: pointer; background: var(--accent); color: var(--bg); border-color: var(--accent); font-weight: 600;
+}
+.toolbar button:hover { opacity: 0.85; }
+.result-count { font-size: 0.8rem; color: var(--text-muted); padding: 4px 0; }
+
+/* ===== Sections ===== */
+.section { padding: 8px 0 24px; }
+.section-title {
+  font-size: 1.1rem; font-weight: 700; padding: 12px 0;
+  border-bottom: 1px solid var(--border); margin-bottom: 12px;
+  display: flex; align-items: center; gap: 8px;
+}
+.section-title .icon { font-size: 1.2rem; }
+.section-title .count { color: var(--text-muted); font-weight: 400; font-size: 0.85rem; }
+
+/* ===== Entry Cards ===== */
+.entry-list { display: flex; flex-direction: column; gap: 8px; }
+.entry-card {
+  background: var(--bg-card); border: 1px solid var(--border);
+  border-radius: var(--radius); padding: 14px 16px;
+  transition: background 0.15s, border-color 0.15s;
+}
+.entry-card:hover { background: var(--bg-card-hover); }
+.entry-card.spotlight {
+  border-color: rgba(249,226,175,0.3);
+  background: linear-gradient(135deg, var(--spotlight-bg), var(--bg-card));
+}
+.entry-card.spotlight::before {
+  content: "⭐ 伴侣聚焦";
+  font-size: 0.7rem; color: var(--spotlight); font-weight: 600;
+  display: block; margin-bottom: 6px;
+  text-transform: uppercase; letter-spacing: 0.5px;
+}
+.entry-title { font-size: 0.95rem; font-weight: 600; margin-bottom: 4px; line-height: 1.4; }
+.entry-meta { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; margin-bottom: 6px; }
+.entry-source {
+  font-size: 0.7rem; background: var(--tag-bg); color: var(--tag-text);
+  padding: 2px 8px; border-radius: 12px; text-transform: uppercase; font-weight: 600;
+}
+.entry-source.project-source { color: var(--accent2); }
+.entry-source.news-source { color: #cba6f7; }
+.entry-source.discussion-source { color: #f38ba8; }
+.entry-date { font-size: 0.75rem; color: var(--text-muted); }
+.entry-summary { font-size: 0.82rem; color: var(--text-muted); line-height: 1.5; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.entry-tags { display: flex; gap: 4px; flex-wrap: wrap; margin-top: 8px; }
+.entry-tag { font-size: 0.65rem; background: rgba(137,180,250,0.1); color: var(--accent); padding: 2px 6px; border-radius: 10px; }
+.entry-authors { font-size: 0.75rem; color: var(--text-muted); }
+.entry-extras { font-size: 0.75rem; color: var(--accent2); }
+.hidden { display: none !important; }
+
+/* ===== Footer ===== */
+footer {
+  text-align: center; padding: 40px 0; color: var(--text-muted);
+  font-size: 0.8rem; border-top: 1px solid var(--border); margin-top: 20px;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 640px) {
+  .stats-bar { gap: 6px; }
+  .stat-card { padding: 10px 8px; }
+  .stat-number { font-size: 1.3rem; }
+  .header-inner { flex-direction: column; gap: 8px; }
+  .toolbar { flex-direction: column; }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="container header-inner">
+    <div class="logo">AI <span>Radar</span></div>
+    <div class="header-right" id="header-info">加载中...</div>
+  </div>
+</header>
+
+<main class="container">
+  <!-- Stats -->
+  <div class="stats-bar" id="stats-bar"></div>
+
+  <!-- Search & Filter -->
+  <div class="toolbar">
+    <input type="text" id="search" placeholder="搜索标题、摘要、关键词...">
+    <select id="category-filter">
+      <option value="all">全部类别</option>
+      <option value="paper">📄 论文</option>
+      <option value="project">💻 项目</option>
+      <option value="news">📰 新闻</option>
+      <option value="discussion">💬 讨论</option>
+    </select>
+    <select id="source-filter">
+      <option value="all">全部来源</option>
+    </select>
+    <button id="spotlight-only">⭐ 仅看聚焦</button>
+  </div>
+  <div class="result-count" id="result-count"></div>
+
+  <!-- Spotlight Section -->
+  <div class="section" id="spotlight-section">
+    <div class="section-title"><span class="icon">⭐</span> 伴侣聚焦 <span class="count" id="spotlight-count"></span></div>
+    <div class="entry-list" id="spotlight-list"></div>
+  </div>
+
+  <!-- Papers -->
+  <div class="section" id="papers-section">
+    <div class="section-title"><span class="icon">📄</span> 论文 <span class="count" id="papers-count"></span></div>
+    <div class="entry-list" id="papers-list"></div>
+  </div>
+
+  <!-- Projects -->
+  <div class="section" id="projects-section">
+    <div class="section-title"><span class="icon">💻</span> GitHub 热门项目 <span class="count" id="projects-count"></span></div>
+    <div class="entry-list" id="projects-list"></div>
+  </div>
+
+  <!-- News -->
+  <div class="section" id="news-section">
+    <div class="section-title"><span class="icon">📰</span> 新闻资讯 <span class="count" id="news-count"></span></div>
+    <div class="entry-list" id="news-list"></div>
+  </div>
+
+  <!-- Discussions -->
+  <div class="section" id="discussions-section">
+    <div class="section-title"><span class="icon">💬</span> 讨论 <span class="count" id="discussions-count"></span></div>
+    <div class="entry-list" id="discussions-list"></div>
+  </div>
+</main>
+
+<footer>
+  AI Radar · 每日自动更新 · 数据来源: arXiv, GitHub, HN, Hugging Face, Papers With Code, RSS · Built with ❤️
+</footer>
+
+<script>
+// ===== State =====
+let allEntries = [];
+let stats = {};
+let spotlightOnly = false;
+
+// ===== Helpers =====
+function sourceClass(src) {
+  if (src.includes('github')) return 'project-source';
+  if (src.includes('rss')) return 'news-source';
+  if (src.includes('hn') || src.includes('hacker')) return 'discussion-source';
+  return '';
+}
+function categoryIcon(cat) {
+  if (cat === 'paper') return '📄';
+  if (cat === 'project') return '💻';
+  if (cat === 'news') return '📰';
+  if (cat === 'discussion') return '💬';
+  return '🔗';
+}
+
+function makeCard(entry) {
+  const spotlightClass = entry.spotlight ? ' spotlight' : '';
+  const srcClass = sourceClass(entry.source);
+  const icon = categoryIcon(entry.category);
+  const tags = (entry.tags || []).filter(t => t !== 'spotlight').slice(0, 5)
+    .map(t => `<span class="entry-tag">${escHtml(t)}</span>`).join('');
+  const authors = (entry.authors || []).length
+    ? `<span class="entry-authors">👤 ${entry.authors.slice(0, 3).join(', ')}</span>` : '';
+  const extras = entry.stars_today
+    ? `<span class="entry-extras">⭐ ${entry.stars_today} stars today</span>`
+    : (entry.upvotes ? `<span class="entry-extras">👍 ${entry.upvotes}</span>` : '');
+
+  return `
+    <div class="entry-card${spotlightClass}" data-id="${entry.id}" data-category="${entry.category}" data-source="${entry.source}">
+      <div class="entry-title">
+        <a href="${escHtml(entry.url)}" target="_blank" rel="noopener">${icon} ${escHtml(entry.title)}</a>
+      </div>
+      <div class="entry-meta">
+        <span class="entry-source ${srcClass}">${escHtml(entry.source)}</span>
+        ${entry.date ? `<span class="entry-date">${entry.date}</span>` : ''}
+        ${authors}
+        ${extras}
+      </div>
+      ${entry.summary ? `<div class="entry-summary">${escHtml(entry.summary)}</div>` : ''}
+      ${tags ? `<div class="entry-tags">${tags}</div>` : ''}
+    </div>`;
+}
+
+function escHtml(s) {
+  if (!s) return '';
+  const div = document.createElement('div');
+  div.textContent = s;
+  return div.innerHTML;
+}
+
+// ===== Render =====
+function getFilteredEntries() {
+  const search = (document.getElementById('search').value || '').toLowerCase();
+  const cat = document.getElementById('category-filter').value;
+  const src = document.getElementById('source-filter').value;
+
+  return allEntries.filter(e => {
+    if (cat !== 'all' && e.category !== cat) return false;
+    if (src !== 'all' && e.source !== src) return false;
+    if (spotlightOnly && !e.spotlight) return false;
+    if (search) {
+      const haystack = `${e.title} ${e.summary} ${(e.tags||[]).join(' ')} ${e.source}`.toLowerCase();
+      if (!haystack.includes(search)) return false;
+    }
+    return true;
+  });
+}
+
+function renderAll() {
+  const filtered = getFilteredEntries();
+  document.getElementById('result-count').textContent = `显示 ${filtered.length} / ${allEntries.length} 条`;
+
+  // Render per category
+  renderList('spotlight-list', filtered.filter(e => e.spotlight && !spotlightOnly));
+  renderList('papers-list', filtered.filter(e => e.category === 'paper' && !(e.spotlight && !spotlightOnly)));
+  renderList('projects-list', filtered.filter(e => e.category === 'project'));
+  renderList('news-list', filtered.filter(e => e.category === 'news'));
+  renderList('discussions-list', filtered.filter(e => e.category === 'discussion'));
+
+  // Update counts
+  const spotlightCount = filtered.filter(e => e.spotlight).length;
+  document.getElementById('spotlight-count').textContent = spotlightCount ? `(${spotlightCount} 条)` : '';
+  document.getElementById('papers-count').textContent = `(${filtered.filter(e => e.category==='paper').length} 条)`;
+  document.getElementById('projects-count').textContent = `(${filtered.filter(e => e.category==='project').length} 条)`;
+  document.getElementById('news-count').textContent = `(${filtered.filter(e => e.category==='news').length} 条)`;
+  document.getElementById('discussions-count').textContent = `(${filtered.filter(e => e.category==='discussion').length} 条)`;
+
+  // Show/hide spotlight section
+  const ss = document.getElementById('spotlight-section');
+  if (!spotlightOnly && filtered.filter(e => e.spotlight).length === 0) {
+    ss.classList.add('hidden');
+  } else {
+    ss.classList.remove('hidden');
+  }
+}
+
+function renderList(listId, entries) {
+  const list = document.getElementById(listId);
+  if (!entries.length) {
+    list.innerHTML = '<div style="color:var(--text-muted);font-size:0.85rem;padding:8px 0;">暂无数据</div>';
+    return;
+  }
+  list.innerHTML = entries.map(makeCard).join('');
+}
+
+function renderStats() {
+  document.getElementById('stats-bar').innerHTML = `
+    <div class="stat-card"><div class="stat-number">${stats.total || 0}</div><div class="stat-label">今日总数</div></div>
+    <div class="stat-card"><div class="stat-number">${stats.papers || 0}</div><div class="stat-label">📄 论文</div></div>
+    <div class="stat-card"><div class="stat-number">${stats.projects || 0}</div><div class="stat-label">💻 项目</div></div>
+    <div class="stat-card"><div class="stat-number">${stats.news || 0}</div><div class="stat-label">📰 新闻</div></div>
+    <div class="stat-card"><div class="stat-number">${stats.discussions || 0}</div><div class="stat-label">💬 讨论</div></div>
+    <div class="stat-card spotlight-stat"><div class="stat-number">${stats.spotlight || 0}</div><div class="stat-label">⭐ 聚焦</div></div>
+  `;
+}
+
+function populateSourceFilter() {
+  const sources = [...new Set(allEntries.map(e => e.source))].sort();
+  const sel = document.getElementById('source-filter');
+  sources.forEach(src => {
+    const opt = document.createElement('option');
+    opt.value = src;
+    opt.textContent = src;
+    sel.appendChild(opt);
+  });
+}
+
+// ===== Load Data =====
+async function loadData() {
+  try {
+    const resp = await fetch('data.json');
+    if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+    const data = await resp.json();
+    allEntries = data.entries || [];
+    stats = data.stats || {};
+    document.getElementById('header-info').textContent =
+      `更新于 ${(data.generated_at || '').replace('T',' ').slice(0,19)} · ${stats.total || 0} 条`;
+    populateSourceFilter();
+    renderStats();
+    renderAll();
+  } catch (err) {
+    document.getElementById('header-info').textContent = '⚠ 数据加载失败';
+    console.error('Load error:', err);
+  }
+}
+
+// ===== Events =====
+document.getElementById('search').addEventListener('input', renderAll);
+document.getElementById('category-filter').addEventListener('change', renderAll);
+document.getElementById('source-filter').addEventListener('change', renderAll);
+document.getElementById('spotlight-only').addEventListener('click', function() {
+  spotlightOnly = !spotlightOnly;
+  this.style.background = spotlightOnly ? 'var(--spotlight)' : '';
+  this.style.color = spotlightOnly ? 'var(--bg)' : '';
+  renderAll();
+});
+
+// ===== Init =====
+loadData();
+</script>
+</body>
+</html>

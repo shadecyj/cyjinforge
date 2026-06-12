@@ -1,0 +1,1052 @@
+{
+  "generated_at": "test",
+  "stats": {
+    "total": 70
+  },
+  "entries": [
+    {
+      "id": "113fda4ad901",
+      "title": "EvoArena: Tracking Memory Evolution for Robust LLM Agents in Dynamic Environments",
+      "url": "https://arxiv.org/abs/2606.13681v1",
+      "source": "arxiv",
+      "category": "paper",
+      "date": "2026-06-11",
+      "summary": "Large language model (LLM) agents have achieved strong performance on a wide range of benchmarks, yet most evaluations assume static environments. In contrast, real-world deployment is inherently dynamic, requiring agents to continually align their knowledge, skills, and behavior with changing envir",
+      "authors": [
+        "Jundong Xu",
+        "Qingchuan Li",
+        "Jiaying Wu",
+        "Yihuai Lan",
+        "Shuyue Stella Li"
+      ],
+      "tags": [
+        "agent",
+        "large language model",
+        "llm"
+      ],
+      "spotlight": false
+    },
+    {
+      "id": "dfb214febf09",
+      "title": "Learning to Reason by Analogy via Retrieval-Augmented Reinforcement Fine-Tuning",
+      "url": "https://arxiv.org/abs/2606.13680v1",
+      "source": "arxiv",
+      "category": "paper",
+      "date": "2026-06-11",
+      "summary": "Retrieval-augmented generation (RAG) has become a standard mechanism for grounding language models in external knowledge, yet conventional retrieval based on lexical or semantic similarity is poorly suited for complex reasoning tasks: a semantically similar problem may demand an entirely different s",
+      "authors": [
+        "Zilin Xiao",
+        "Qi Ma",
+        "Chun-cheng Jason Chen",
+        "Xintao Chen",
+        "Avinash Atreya"
+      ],
+      "tags": [
+        "fine-tuning",
+        "rag",
+        "reasoning"
+      ],
+      "spotlight": false
+    },
+    {
+      "id": "908ea4283c49",
+      "title": "Mana: Dexterous Manipulation of Articulated Tools",
+      "url": "https://arxiv.org/abs/2606.13677v1",
+      "source": "arxiv",
+      "category": "paper",
+      "date": "2026-06-11",
+      "summary": "Articulated tool manipulation remains a major challenge in dexterous robotics due to the need to coordinate internal degrees of freedom and contact-rich interactions. While prior work has largely focused on rigid objects, articulated tool use remains underexplored because of its physical complexity ",
+      "authors": [
+        "Zhao-Heng Yin",
+        "Guanya Shi",
+        "Pieter Abbeel",
+        "C. Karen Liu"
+      ],
+      "tags": [
+        "robot",
+        "tool use"
+      ],
+      "spotlight": false
+    },
+    {
+      "id": "f9b327846bb3",
+      "title": "SpatialClaw: Rethinking Action Interface for Agentic Spatial Reasoning",
+      "url": "https://arxiv.org/abs/2606.13673v1",
+      "source": "arxiv",
+      "category": "paper",
+      "date": "2026-06-11",
+      "summary": "Spatial reasoning, the ability to determine where objects are, how they relate, and how they move in 3D, remains a fundamental challenge for vision-language models (VLMs). Tool-augmented agents attempt to address this by augmenting VLMs with specialist perception modules, yet their effectiveness is ",
+      "authors": [
+        "Seokju Cho",
+        "Ryo Hachiuma",
+        "Abhishek Badki",
+        "Hang Su",
+        "Byung-Kwan Lee"
+      ],
+      "tags": [
+        "agent",
+        "reasoning"
+      ],
+      "spotlight": false
+    },
+    {
+      "id": "73e67509a9cc",
+      "title": "Automated reproducibility assessments in the social and behavioral sciences using large language models",
+      "url": "https://arxiv.org/abs/2606.13670v1",
+      "source": "arxiv",
+      "category": "paper",
+      "date": "2026-06-11",
+      "summary": "Reproducibility in the social and behavioral sciences is typically evaluated by independent researchers who reanalyze the original data to assess whether the published findings can be recovered. However, such approaches are resource-intensive and difficult to scale. Here, we show that large language",
+      "authors": [
+        "Tobias Holtdirk",
+        "Pietro Marcolongo",
+        "Anna Steinberg Schulten",
+        "Felix Henninger",
+        "Stefan Rose"
+      ],
+      "tags": [
+        "large language model",
+        "large language models",
+        "llm"
+      ],
+      "spotlight": false
+    },
+    {
+      "id": "9db9f7ddc5af",
+      "title": "Agents-K1: Towards Agent-native Knowledge Orchestration",
+      "url": "https://arxiv.org/abs/2606.13669v1",
+      "source": "arxiv",
+      "category": "paper",
+      "date": "2026-06-11",
+      "summary": "Current LLM-based research agents have advanced through agent orchestration, yet largely overlook scientific knowledge orchestration. Existing works often reduce papers to abstracts, surface mentions, and flat \\texttt{cites} edges, omitting key entities, claims, evidence, mechanisms, and method line",
+      "authors": [
+        "Zongsheng Cao",
+        "Bihao Zhan",
+        "Jinxin Shi",
+        "Jiong Wang",
+        "Fangchen Yu"
+      ],
+      "tags": [
+        "agent",
+        "llm",
+        "reasoning"
+      ],
+      "spotlight": false
+    },
+    {
+      "id": "4d9c79ff2519",
+      "title": "Influcoder: Distilling Decoders' Gradient Influence Rankings into an Encoder for Data Attribution",
+      "url": "https://arxiv.org/abs/2606.13668v1",
+      "source": "arxiv",
+      "category": "paper",
+      "date": "2026-06-11",
+      "summary": "With the growth of LLMs' (Large Language Models) capabilities, there has been an increasing push to curate high quality datasets by filtering samples in the training data. In general, Data Attribution (DA) methods aim to estimate how individual samples in a training dataset can precondition a model ",
+      "authors": [
+        "Dimitri Kachler",
+        "Damien Sileo",
+        "Pascal Denis"
+      ],
+      "tags": [
+        "large language model",
+        "large language models",
+        "llm"
+      ],
+      "spotlight": false
+    },
+    {
+      "id": "8bad54615db8",
+      "title": "HyperTool: Beyond Step-Wise Tool Calls for Tool-Augmented Agents",
+      "url": "https://arxiv.org/abs/2606.13663v1",
+      "source": "arxiv",
+      "category": "paper",
+      "date": "2026-06-11",
+      "summary": "Tool-augmented LLM agents commonly rely on step-wise atomic tool calls, where each invocation, observation, and value transfer is exposed in the main reasoning trace. This creates an \\emph{execution-granularity mismatch}: locally deterministic tool workflows are unfolded into repeated model-visible ",
+      "authors": [
+        "Yaxin Du",
+        "Yifan Zhou",
+        "Yujie Ge",
+        "Jiajun Wang",
+        "Xianghe Pang"
+      ],
+      "tags": [
+        "agent",
+        "llm",
+        "reasoning"
+      ],
+      "spotlight": false
+    },
+    {
+      "id": "36093a41ef88",
+      "title": "EurekAgent: Agent Environment Engineering is All You Need For Autonomous Scientific Discovery",
+      "url": "https://arxiv.org/abs/2606.13662v1",
+      "source": "arxiv",
+      "category": "paper",
+      "date": "2026-06-11",
+      "summary": "LLM-based agents have shown increasing potential in automating scientific discovery. Given an optimizable metric and an execution environment, they can propose, validate, and iterate scientific solutions, and have produced results that outperform human-designed approaches. As model capabilities cont",
+      "authors": [
+        "Amy Xin",
+        "Jiening Siow",
+        "Junjie Wang",
+        "Zijun Yao",
+        "Fanjin Zhang"
+      ],
+      "tags": [
+        "agent",
+        "llm",
+        "spotlight"
+      ],
+      "spotlight": true
+    },
+    {
+      "id": "f0997dc0bbc4",
+      "title": "Before You Think: System 0, AI-Mediated Cognition and Cognitive Colonization",
+      "url": "https://arxiv.org/abs/2606.13658v1",
+      "source": "arxiv",
+      "category": "paper",
+      "date": "2026-06-11",
+      "summary": "This paper examines three recent frameworks for understanding the cognitive and epistemic consequences of artificial intelligence: Tri-System Theory, Thinkframes, and System 0. It argues that while the first two capture important dimensions of AI's influence on individual reasoning and collective ep",
+      "authors": [
+        "Marianna Bergamaschi Ganapini",
+        "Massimo Chiriatti",
+        "Enrico Panai",
+        "Giuseppe Riva"
+      ],
+      "tags": [
+        "reasoning"
+      ],
+      "spotlight": false
+    },
+    {
+      "id": "8e8137fc2fab",
+      "title": "Operadic consistency: a label-free signal for compositional reasoning failures in LLMs",
+      "url": "https://arxiv.org/abs/2606.13649v1",
+      "source": "arxiv",
+      "category": "paper",
+      "date": "2026-06-11",
+      "summary": "Detecting LLM reasoning failures at inference time without ground-truth labels has motivated a wide range of confidence baselines, including self-consistency, semantic entropy, and P(True), built on within-question sampling and self-evaluation. Operad theory, the formalism for systems built by itera",
+      "authors": [
+        "Nathaniel Bottman",
+        "Yinhong Liu",
+        "Kyle Richardson"
+      ],
+      "tags": [
+        "llm",
+        "reasoning"
+      ],
+      "spotlight": false
+    },
+    {
+      "id": "03a7de346db4",
+      "title": "SkMTEB: Slovak Massive Text Embedding Benchmark and Model Adaptation",
+      "url": "https://arxiv.org/abs/2606.13647v1",
+      "source": "arxiv",
+      "category": "paper",
+      "date": "2026-06-11",
+      "summary": "We introduce SkMTEB, the first comprehensive MTEB-style text embedding benchmark for Slovak, a low-resource West Slavic language, comprising 31 datasets across 7 task types -- nearly 4$\\times$ the depth of existing multilingual benchmark coverage for Slovak. Our evaluation of 31 embedding models rev",
+      "authors": [
+        "Marek Šuppa",
+        "Andrej Ridzik",
+        "Daniel Hládek",
+        "Natália Kňažeková",
+        "Viktória Ondrejová"
+      ],
+      "tags": [
+        "rag"
+      ],
+      "spotlight": false
+    },
+    {
+      "id": "fe9915f8edbb",
+      "title": "Recursive Agent Harnesses",
+      "url": "https://arxiv.org/abs/2606.13643v1",
+      "source": "arxiv",
+      "category": "paper",
+      "date": "2026-06-11",
+      "summary": "Recursive language models (RLMs) showed that recursion over model calls is an effective strategy for long-context reasoning, and production coding agents have begun to write code that spawns subagents at scale, most recently in Anthropic's dynamic workflows. We name and study the pattern between the",
+      "authors": [
+        "Elias Lumer",
+        "Sahil Sen",
+        "Kevin Paul",
+        "Vamse Kumar Subbiah"
+      ],
+      "tags": [
+        "agent",
+        "long-context",
+        "planning",
+        "reasoning"
+      ],
+      "spotlight": false
+    },
+    {
+      "id": "79fdae158813",
+      "title": "Operads for compositional reasoning in LLMs",
+      "url": "https://arxiv.org/abs/2606.13634v1",
+      "source": "arxiv",
+      "category": "paper",
+      "date": "2026-06-11",
+      "summary": "Question decomposition, i.e. breaking a complex query into simpler sub-queries whose answers are composed to produce a final answer, is a widely used strategy for improving LLM reasoning, yet it currently lacks a rigorous mathematical foundation. In this paper, we propose operads, mathematical struc",
+      "authors": [
+        "Nathaniel Bottman",
+        "Kyle Richardson"
+      ],
+      "tags": [
+        "llm",
+        "reasoning"
+      ],
+      "spotlight": false
+    },
+    {
+      "id": "bda2d3bb653a",
+      "title": "From Tokens to Faces: Investigating Discrete Speech Representations for 3D Facial Animation",
+      "url": "https://arxiv.org/abs/2606.13630v1",
+      "source": "arxiv",
+      "category": "paper",
+      "date": "2026-06-11",
+      "summary": "The choice of speech representation is critical in speech-driven 3D facial animation. Representations differ in what they encode: SSL features emphasize segmental and semantic cues, neural codecs yield latents optimized for acoustic reconstruction, and ASR-style objectives produce label-based spaces",
+      "authors": [
+        "Pedro Correa",
+        "Olivier Perrotin",
+        "Samir Sadok",
+        "Paula Costa",
+        "Thomas Hueber"
+      ],
+      "tags": [],
+      "spotlight": false
+    },
+    {
+      "id": "d41b2c6ed1f2",
+      "title": "Valid Inference with Synthetic Data via Task Exchangeability",
+      "url": "https://arxiv.org/abs/2606.13629v1",
+      "source": "arxiv",
+      "category": "paper",
+      "date": "2026-06-11",
+      "summary": "There is a proliferation of work arguing for the use of synthetic data in scientific research. For example, social scientists are arguing for the use of LLM-generated \"silicon samples\" in pilot studies; AI evaluations increasingly rely on \"LLM-as-a-judge\" outputs; and proteomics research is accelera",
+      "authors": [
+        "Lezhi Tan",
+        "Tijana Zrnic"
+      ],
+      "tags": [
+        "generative",
+        "llm"
+      ],
+      "spotlight": false
+    },
+    {
+      "id": "9ce999eaae00",
+      "title": "Beyond Uniform Tokens: Adaptive Compression for Time Series Language Models",
+      "url": "https://arxiv.org/abs/2606.13624v1",
+      "source": "arxiv",
+      "category": "paper",
+      "date": "2026-06-11",
+      "summary": "Large language models (LLMs) have enabled time series (TS) analysis by jointly modeling numerical observations and textual context through a shared token interface. However, TS tokens and prompt tokens exhibit fundamentally different information structures, making uniform token processing inefficien",
+      "authors": [
+        "Jialin Gan",
+        "Xin Qiu",
+        "Guangzhe Chen",
+        "Xue Wang"
+      ],
+      "tags": [
+        "large language model",
+        "large language models",
+        "llm"
+      ],
+      "spotlight": false
+    },
+    {
+      "id": "385f0df8bcb3",
+      "title": "Beyond Runtime Enforcement: Shield Synthesis as Defensibility Analysis for Adversarial Networks",
+      "url": "https://arxiv.org/abs/2606.13621v1",
+      "source": "arxiv",
+      "category": "paper",
+      "date": "2026-06-11",
+      "summary": "Shielded reinforcement learning is typically presented as a runtime safety mechanism that compiles temporal-logic specifications into automata restricting an agent's actions. We argue this is the wrong product. The same automata-theoretic machinery -- specification compilation, product game construc",
+      "authors": [
+        "Achraf Hsain",
+        "Sultan Almuhammadi"
+      ],
+      "tags": [
+        "agent",
+        "safety"
+      ],
+      "spotlight": false
+    },
+    {
+      "id": "1502bf0f45a6",
+      "title": "One Polluted Page Is Enough: Evaluating Web Content Pollution in Generative Recommenders",
+      "url": "https://arxiv.org/abs/2606.13610v1",
+      "source": "arxiv",
+      "category": "paper",
+      "date": "2026-06-11",
+      "summary": "Search-augmented LLMs increasingly mediate everyday consumer recommendations by retrieving live web content. This creates a new risk: generative recommenders may consume polluted web content, such as fake reviews and promotional pages crafted to mislead recommendations. We ask: to what extent do sea",
+      "authors": [
+        "Minghao Luo",
+        "Liang Chen"
+      ],
+      "tags": [
+        "generative",
+        "llm"
+      ],
+      "spotlight": false
+    },
+    {
+      "id": "e70f4cea9812",
+      "title": "AgentBeats: Agentifying Agent Assessment for Openness, Standardization, and Reproducibility",
+      "url": "https://arxiv.org/abs/2606.13608v1",
+      "source": "arxiv",
+      "category": "paper",
+      "date": "2026-06-11",
+      "summary": "Agent systems are advancing quickly across domains, but their evaluation remains fragmented. Most benchmarks rely on fixed, LLM-centric harnesses that require heavy integration, create test-production mismatch, and limit fair comparison across diverse agent designs. The root problem is the lack of a",
+      "authors": [
+        "Xiaoyuan Liu",
+        "Jianhong Tu",
+        "Yuqi Chen",
+        "Siyuan Xie",
+        "Sihan Ren"
+      ],
+      "tags": [
+        "agent",
+        "llm",
+        "rag"
+      ],
+      "spotlight": false
+    },
+    {
+      "id": "3bce55a93dc4",
+      "title": "Show HN: GeoSolver MCP – reverse image geolocation for AI agents",
+      "url": "https://reverseimagelocation.com/settings/mcp",
+      "source": "hacker-news",
+      "category": "discussion",
+      "date": "2026-06-12",
+      "summary": "Points: 1, Comments: 0",
+      "authors": [],
+      "tags": [
+        "agent"
+      ],
+      "spotlight": false
+    },
+    {
+      "id": "458c30985b27",
+      "title": "A BIOS update won't fix a board-specific ROCm bug on Strix Halo",
+      "url": "https://thefrontierlab.ai/bios-update-wont-fix-6182/",
+      "source": "hacker-news",
+      "category": "discussion",
+      "date": "2026-06-12",
+      "summary": "Points: 1, Comments: 0",
+      "authors": [],
+      "tags": [],
+      "spotlight": false
+    },
+    {
+      "id": "d521a5e1d563",
+      "title": "'How ASML is applying AI-native engineering for the next technology era'",
+      "url": "https://www.asml.com/en/news/stories/2026/machines-behind-machines",
+      "source": "hacker-news",
+      "category": "discussion",
+      "date": "2026-06-12",
+      "summary": "Points: 1, Comments: 0",
+      "authors": [],
+      "tags": [],
+      "spotlight": false
+    },
+    {
+      "id": "02c27966c60b",
+      "title": "How Does the Video Codec Influence the Prediction Scores of an AI Model?",
+      "url": "https://www.fourthline.com/newsroom/supervised-vs-contrastive-classification",
+      "source": "hacker-news",
+      "category": "discussion",
+      "date": "2026-06-12",
+      "summary": "Points: 2, Comments: 0",
+      "authors": [],
+      "tags": [],
+      "spotlight": false
+    },
+    {
+      "id": "29422c8f6b78",
+      "title": "AWS Tunes Up Graviton5 for Agentic AI, Boosts Bang for the Buck Bigtime",
+      "url": "https://www.nextplatform.com/compute/2026/06/11/aws-tunes-up-graviton5-for-agentic-ai-boosts-bang-for-the-buck-bigtime/5254538",
+      "source": "hacker-news",
+      "category": "discussion",
+      "date": "2026-06-12",
+      "summary": "Points: 1, Comments: 0",
+      "authors": [],
+      "tags": [
+        "agent"
+      ],
+      "spotlight": false
+    },
+    {
+      "id": "fd911a9ecb0d",
+      "title": "Facing US chip curbs, China launches photonics lab to power AI with light",
+      "url": "https://www.scmp.com/tech/tech-war/article/3356901/facing-us-chip-curbs-china-launches-photonics-lab-power-ai-light",
+      "source": "hacker-news",
+      "category": "discussion",
+      "date": "2026-06-12",
+      "summary": "Points: 3, Comments: 0",
+      "authors": [],
+      "tags": [],
+      "spotlight": false
+    },
+    {
+      "id": "5b329efebf20",
+      "title": "Finding code duplicated by AI without AI",
+      "url": "https://github.com/Rafaelpta/dupehound",
+      "source": "hacker-news",
+      "category": "discussion",
+      "date": "2026-06-12",
+      "summary": "Points: 2, Comments: 1",
+      "authors": [],
+      "tags": [],
+      "spotlight": false
+    },
+    {
+      "id": "9e5982c64ea6",
+      "title": "AI will be massively deflationary",
+      "url": "https://geohot.github.io//blog/jekyll/update/2026/06/11/ai-will-be-deflationary.html",
+      "source": "hacker-news",
+      "category": "discussion",
+      "date": "2026-06-12",
+      "summary": "Points: 2, Comments: 0",
+      "authors": [],
+      "tags": [],
+      "spotlight": false
+    },
+    {
+      "id": "935f40d52827",
+      "title": "AI Will Cheat to Win: Reward Hacking from 1994 to 2025",
+      "url": "https://adversariallogic.com/when-ai-finds-the-shortcut-reward-hacking-from-1994-to-2025/",
+      "source": "hacker-news",
+      "category": "discussion",
+      "date": "2026-06-12",
+      "summary": "Points: 1, Comments: 0",
+      "authors": [],
+      "tags": [],
+      "spotlight": false
+    },
+    {
+      "id": "06f7fd885e6a",
+      "title": "Horizon Trade revolutionises trading with AI",
+      "url": "https://horizon.trade",
+      "source": "hacker-news",
+      "category": "discussion",
+      "date": "2026-06-12",
+      "summary": "Points: 1, Comments: 1",
+      "authors": [],
+      "tags": [],
+      "spotlight": false
+    },
+    {
+      "id": "9811f69d4419",
+      "title": "How to Grep Like an LLM",
+      "url": "https://marcusmichaels.com/notes/grep-like-an-llm/",
+      "source": "hacker-news",
+      "category": "discussion",
+      "date": "2026-06-12",
+      "summary": "Points: 1, Comments: 2",
+      "authors": [],
+      "tags": [
+        "llm"
+      ],
+      "spotlight": false
+    },
+    {
+      "id": "bf672bae08ce",
+      "title": "Similarities between human psychopathology and errors in LLMs",
+      "url": "https://www.nature.com/articles/s44277-026-00064-1",
+      "source": "hacker-news",
+      "category": "discussion",
+      "date": "2026-06-12",
+      "summary": "Points: 4, Comments: 1",
+      "authors": [],
+      "tags": [
+        "llm"
+      ],
+      "spotlight": false
+    },
+    {
+      "id": "f115a6f3bb02",
+      "title": "No One Can Compare LLMs",
+      "url": "https://xlii.space/eng/no-one-can-compare-llms/",
+      "source": "hacker-news",
+      "category": "discussion",
+      "date": "2026-06-12",
+      "summary": "Points: 1, Comments: 0",
+      "authors": [],
+      "tags": [
+        "llm"
+      ],
+      "spotlight": false
+    },
+    {
+      "id": "09d76d08dcac",
+      "title": "How do lava lamps help with Internet encryption?",
+      "url": "https://www.cloudflare.com/learning/ssl/lava-lamp-encryption/",
+      "source": "hacker-news",
+      "category": "discussion",
+      "date": "2026-06-12",
+      "summary": "Points: 2, Comments: 0",
+      "authors": [],
+      "tags": [],
+      "spotlight": false
+    },
+    {
+      "id": "d9173b242f79",
+      "title": "Personal Guardian Angel with LLM",
+      "url": "https://gwern.net/guardian-angel",
+      "source": "hacker-news",
+      "category": "discussion",
+      "date": "2026-06-12",
+      "summary": "Points: 1, Comments: 0",
+      "authors": [],
+      "tags": [
+        "llm"
+      ],
+      "spotlight": false
+    },
+    {
+      "id": "472079b71cad",
+      "title": "Auto mode for pi.dev. An LLM reviews your coding agent's commands",
+      "url": "https://github.com/vinzenzu/pi-auto-reviewer",
+      "source": "hacker-news",
+      "category": "discussion",
+      "date": "2026-06-12",
+      "summary": "Points: 1, Comments: 2",
+      "authors": [],
+      "tags": [
+        "agent",
+        "llm"
+      ],
+      "spotlight": false
+    },
+    {
+      "id": "594cb39f317f",
+      "title": "Zepto's published search architecture only applies to logged-in users",
+      "url": "https://medium.com/@abhij89/zeptos-llm-search-works-great-unless-you-re-a-new-user-c13e138de331",
+      "source": "hacker-news",
+      "category": "discussion",
+      "date": "2026-06-12",
+      "summary": "Points: 1, Comments: 0",
+      "authors": [],
+      "tags": [],
+      "spotlight": false
+    },
+    {
+      "id": "b485d645cad7",
+      "title": "LLM for the ESP32-S3",
+      "url": "https://github.com/harmansingh4163-ai/ESP-32-s3-Story-maker-LLM",
+      "source": "hacker-news",
+      "category": "discussion",
+      "date": "2026-06-12",
+      "summary": "Points: 1, Comments: 0",
+      "authors": [],
+      "tags": [
+        "llm"
+      ],
+      "spotlight": false
+    },
+    {
+      "id": "2b34fdc28d65",
+      "title": "Git v2.55 will release with Rust support enabled by default",
+      "url": "https://lore.kernel.org/lkml/xmqqik7pqeiq.fsf@gitster.g/",
+      "source": "hacker-news",
+      "category": "discussion",
+      "date": "2026-06-12",
+      "summary": "Points: 3, Comments: 1",
+      "authors": [],
+      "tags": [],
+      "spotlight": false
+    },
+    {
+      "id": "93e4f349e882",
+      "title": "Sophia NLU Home Assistant – On Device, Low Compute, No Internet, Voice Assistant",
+      "url": "https://news.ycombinator.com/item?id=48499703",
+      "source": "hacker-news",
+      "category": "discussion",
+      "date": "2026-06-12",
+      "summary": "Points: 3, Comments: 1",
+      "authors": [],
+      "tags": [],
+      "spotlight": false
+    },
+    {
+      "id": "907d230a21d3",
+      "title": "Anthropic Mythos: Modelling Bank Strategies",
+      "url": "https://neuralcore.brainterms.ai/share/rpt_mq9ayvj0",
+      "source": "hacker-news",
+      "category": "discussion",
+      "date": "2026-06-12",
+      "summary": "Points: 1, Comments: 1",
+      "authors": [],
+      "tags": [],
+      "spotlight": false
+    },
+    {
+      "id": "688291b7fec5",
+      "title": "Show HN: Ttar 2.4 KB freestanding TAR archiver written in C, no Libc",
+      "url": "https://github.com/Ferki-git-creator/ttar-tiny-tar-archivist",
+      "source": "hacker-news",
+      "category": "discussion",
+      "date": "2026-06-12",
+      "summary": "Points: 1, Comments: 0",
+      "authors": [],
+      "tags": [],
+      "spotlight": false
+    },
+    {
+      "id": "750afd37beaf",
+      "title": "Stop tuning prompts by hand. Engineer the loop that tunes them",
+      "url": "https://github.com/anastasiosyal/dspy-gepa-optimizer",
+      "source": "hacker-news",
+      "category": "discussion",
+      "date": "2026-06-12",
+      "summary": "Points: 1, Comments: 0",
+      "authors": [],
+      "tags": [],
+      "spotlight": false
+    },
+    {
+      "id": "334aa902741e",
+      "title": "Show HN: I made an app for initiating social activity",
+      "url": "https://apps.apple.com/no/app/greenlight-squads/id6757295236",
+      "source": "hacker-news",
+      "category": "discussion",
+      "date": "2026-06-12",
+      "summary": "Points: 2, Comments: 0",
+      "authors": [],
+      "tags": [],
+      "spotlight": false
+    },
+    {
+      "id": "7e0efce56fee",
+      "title": "Compile and Run iOS Apps on Linux",
+      "url": "https://github.com/Lore-Hex/QuillUI",
+      "source": "hacker-news",
+      "category": "discussion",
+      "date": "2026-06-12",
+      "summary": "Points: 3, Comments: 1",
+      "authors": [],
+      "tags": [],
+      "spotlight": false
+    },
+    {
+      "id": "3e6f2d9f5b5f",
+      "title": "Production-Grade Claude/AI Skills for Ruby on Rails",
+      "url": "https://github.com/sandeepmvl/rails-skills",
+      "source": "hacker-news",
+      "category": "discussion",
+      "date": "2026-06-12",
+      "summary": "Points: 1, Comments: 1",
+      "authors": [],
+      "tags": [],
+      "spotlight": false
+    },
+    {
+      "id": "3d310f9467e5",
+      "title": "I made a zero cost browser-use tool – let AI click and type on webpages for you",
+      "url": "https://github.com/pdufour/browser-use-wasm",
+      "source": "hacker-news",
+      "category": "discussion",
+      "date": "2026-06-12",
+      "summary": "Points: 1, Comments: 1",
+      "authors": [],
+      "tags": [],
+      "spotlight": false
+    },
+    {
+      "id": "e89bed869ab7",
+      "title": "PostDesk is now open source",
+      "url": "https://github.com/bymilon/post-desk",
+      "source": "hacker-news",
+      "category": "discussion",
+      "date": "2026-06-12",
+      "summary": "Points: 2, Comments: 0",
+      "authors": [],
+      "tags": [],
+      "spotlight": false
+    },
+    {
+      "id": "030e3653f670",
+      "title": "Show HN: Passwd.page – give agents secrets without pasting them into prompts",
+      "url": "https://passwd.page/",
+      "source": "hacker-news",
+      "category": "discussion",
+      "date": "2026-06-12",
+      "summary": "Points: 1, Comments: 0",
+      "authors": [],
+      "tags": [
+        "agent"
+      ],
+      "spotlight": false
+    },
+    {
+      "id": "0b65afa7f9ef",
+      "title": "Chinese agents caught rebuilding botnets and stirring pot AI datacenter debate",
+      "url": "https://www.theregister.com/security/2026/06/11/china-linked-operators-revive-botnet-stir-ai-datacenter-debate/5253873",
+      "source": "hacker-news",
+      "category": "discussion",
+      "date": "2026-06-12",
+      "summary": "Points: 2, Comments: 0",
+      "authors": [],
+      "tags": [
+        "agent"
+      ],
+      "spotlight": false
+    },
+    {
+      "id": "a18d337c3ef6",
+      "title": "Lakebed [alpha] – Let the agents build. Get out of their way",
+      "url": "https://lakebed.dev/",
+      "source": "hacker-news",
+      "category": "discussion",
+      "date": "2026-06-12",
+      "summary": "Points: 1, Comments: 0",
+      "authors": [],
+      "tags": [
+        "agent"
+      ],
+      "spotlight": false
+    },
+    {
+      "id": "2d9864c6396c",
+      "title": "3code, the Economical Coding Agent",
+      "url": "https://3code.capocasa.dev/",
+      "source": "hacker-news",
+      "category": "discussion",
+      "date": "2026-06-12",
+      "summary": "Points: 2, Comments: 1",
+      "authors": [],
+      "tags": [
+        "agent"
+      ],
+      "spotlight": false
+    },
+    {
+      "id": "31ac5ced2b98",
+      "title": "Stack Overflow for Agents",
+      "url": "https://agents.stackoverflow.com/",
+      "source": "hacker-news",
+      "category": "discussion",
+      "date": "2026-06-12",
+      "summary": "Points: 1, Comments: 0",
+      "authors": [],
+      "tags": [
+        "agent"
+      ],
+      "spotlight": false
+    },
+    {
+      "id": "d5d6a569e72b",
+      "title": "Fable 5 on par with GPT-5.5 in Artificial Analysis Coding Agent Index",
+      "url": "https://artificialanalysis.ai/agents/coding-agents",
+      "source": "hacker-news",
+      "category": "discussion",
+      "date": "2026-06-12",
+      "summary": "Points: 4, Comments: 1",
+      "authors": [],
+      "tags": [
+        "agent"
+      ],
+      "spotlight": false
+    },
+    {
+      "id": "29ef640d3d7d",
+      "title": "CursorBar: Keep an eye on spending and agent status' in your macOS MenuBar",
+      "url": "https://github.com/c-johannesen/cursorbar",
+      "source": "hacker-news",
+      "category": "discussion",
+      "date": "2026-06-12",
+      "summary": "Points: 1, Comments: 0",
+      "authors": [],
+      "tags": [
+        "agent"
+      ],
+      "spotlight": false
+    },
+    {
+      "id": "3b16f7afbd56",
+      "title": "Roiting – Agencia de Marketing B2B orientada a oportunidades reales de venta",
+      "url": "https://www.roiting.com/",
+      "source": "hacker-news",
+      "category": "discussion",
+      "date": "2026-06-12",
+      "summary": "Points: 1, Comments: 0",
+      "authors": [],
+      "tags": [],
+      "spotlight": false
+    },
+    {
+      "id": "eb76652fe57e",
+      "title": "The Environmental Cost of Artificial Intelligence: Carbon, Water and Land",
+      "url": "https://unu.edu/inweh/collection/environmental-cost-of-AIs-Enrgy-Use-Carbon-water-and-land-footprints",
+      "source": "hacker-news",
+      "category": "discussion",
+      "date": "2026-06-12",
+      "summary": "Points: 2, Comments: 1",
+      "authors": [],
+      "tags": [],
+      "spotlight": false
+    },
+    {
+      "id": "44296fd81c28",
+      "title": "Google director resigns, citing military deals: 'Management lost moral compass'",
+      "url": "https://www.businessinsider.com/google-director-resigned-pentagon-ai-deal-military-artificial-intelligence-gemini-2026-6",
+      "source": "hacker-news",
+      "category": "discussion",
+      "date": "2026-06-12",
+      "summary": "Points: 6, Comments: 2",
+      "authors": [],
+      "tags": [],
+      "spotlight": false
+    },
+    {
+      "id": "e70bdae4f2d6",
+      "title": "Artificial intelligence got better at building itself",
+      "url": "https://www.economist.com/science-and-technology/2026/06/07/how-artificial-intelligence-got-better-at-building-itself",
+      "source": "hacker-news",
+      "category": "discussion",
+      "date": "2026-06-11",
+      "summary": "Points: 3, Comments: 0",
+      "authors": [],
+      "tags": [],
+      "spotlight": false
+    },
+    {
+      "id": "9336c4ceb64b",
+      "title": "The skills people still perform better than AI, according to workplace experts",
+      "url": "https://apnews.com/article/artificial-intelligence-jobs-soft-skills-human-0ce88d448f0b7a87c72b6241305a61f2",
+      "source": "hacker-news",
+      "category": "discussion",
+      "date": "2026-06-11",
+      "summary": "Points: 2, Comments: 0",
+      "authors": [],
+      "tags": [],
+      "spotlight": false
+    },
+    {
+      "id": "209f3eeca787",
+      "title": "Is Artificial General Intelligence Achievable?",
+      "url": "https://news.ycombinator.com/item?id=48490015",
+      "source": "hacker-news",
+      "category": "discussion",
+      "date": "2026-06-11",
+      "summary": "Points: 2, Comments: 2",
+      "authors": [],
+      "tags": [
+        "artificial general intelligence"
+      ],
+      "spotlight": false
+    },
+    {
+      "id": "e2a528ebb516",
+      "title": "Anthropic apologizes for invisible Claude Fable guardrails",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/948280/anthropic-claude-fable-invisible-distillation-guardrail",
+      "source": "hacker-news",
+      "category": "discussion",
+      "date": "2026-06-11",
+      "summary": "Points: 441, Comments: 395",
+      "authors": [],
+      "tags": [],
+      "spotlight": false
+    },
+    {
+      "id": "0ca38d2d933e",
+      "title": "Claude \"Fable\" won't answer basic biology questions",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/947973/fable-wont-answer-basic-biology-questions",
+      "source": "hacker-news",
+      "category": "discussion",
+      "date": "2026-06-11",
+      "summary": "Points: 7, Comments: 1",
+      "authors": [],
+      "tags": [],
+      "spotlight": false
+    },
+    {
+      "id": "719669815552",
+      "title": "Steve Jobs responds to question about artificial intelligence, IDCA, 1983 [video]",
+      "url": "https://www.youtube.com/watch?v=tkzGtGzXIEc",
+      "source": "hacker-news",
+      "category": "discussion",
+      "date": "2026-06-10",
+      "summary": "Points: 1, Comments: 0",
+      "authors": [],
+      "tags": [],
+      "spotlight": false
+    },
+    {
+      "id": "18dfc6951f82",
+      "title": "Cybersecurity researchers aren't happy about the guardrails on Anthropic's Fable",
+      "url": "https://techcrunch.com/2026/06/10/cybersecurity-researchers-arent-happy-about-the-guardrails-on-anthropics-fable/",
+      "source": "hacker-news",
+      "category": "discussion",
+      "date": "2026-06-10",
+      "summary": "Points: 584, Comments: 517",
+      "authors": [],
+      "tags": [],
+      "spotlight": false
+    },
+    {
+      "id": "262d9def3299",
+      "title": "SIAM Publications – Editorial Policy on Artificial Intelligence",
+      "url": "https://epubs.siam.org/artificial-intelligence",
+      "source": "hacker-news",
+      "category": "discussion",
+      "date": "2026-06-10",
+      "summary": "Points: 1, Comments: 0",
+      "authors": [],
+      "tags": [],
+      "spotlight": false
+    },
+    {
+      "id": "93e14d249c7e",
+      "title": "Build a Web App for Your Machine Learning Model",
+      "url": "https://mljar.com/blog/web-app-machine-learning/",
+      "source": "hacker-news",
+      "category": "discussion",
+      "date": "2026-06-12",
+      "summary": "Points: 2, Comments: 0",
+      "authors": [],
+      "tags": [],
+      "spotlight": false
+    },
+    {
+      "id": "91dadb0cf0be",
+      "title": "Show HN: A curated collection of simple datasets for machine learning",
+      "url": "https://github.com/pplonski/datasets-for-start",
+      "source": "hacker-news",
+      "category": "discussion",
+      "date": "2026-06-10",
+      "summary": "Points: 4, Comments: 1",
+      "authors": [],
+      "tags": [],
+      "spotlight": false
+    },
+    {
+      "id": "9128af4f0cc0",
+      "title": "Tyler Cowen: AI Isn't Conscious. Neither Are We",
+      "url": "https://www.thefp.com/p/tyler-cowen-ai-consciousness-myth",
+      "source": "hacker-news",
+      "category": "discussion",
+      "date": "2026-06-10",
+      "summary": "Points: 2, Comments: 2",
+      "authors": [],
+      "tags": [
+        "spotlight"
+      ],
+      "spotlight": true
+    },
+    {
+      "id": "b12af276ced5",
+      "title": "Show HN: Eidentic – TypeScript SDK for AI agents with self-improving memory",
+      "url": "https://github.com/eidentic/eidentic",
+      "source": "hacker-news",
+      "category": "discussion",
+      "date": "2026-06-11",
+      "summary": "Points: 4, Comments: 0",
+      "authors": [],
+      "tags": [
+        "agent",
+        "spotlight"
+      ],
+      "spotlight": true
+    }
+  ]
+}
