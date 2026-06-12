@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-06-12T12:26:21.805880+00:00",
+  "generated_at": "2026-06-12T12:28:58.987559+00:00",
   "stats": {
-    "total": 254,
+    "total": 255,
     "papers": 80,
     "projects": 74,
     "news": 50,
-    "discussions": 50,
+    "discussions": 51,
     "spotlight": 24
   },
   "entries": [
@@ -734,18 +734,6 @@
       "category": "news",
       "date": "2026-06-10",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. The “steroid olympics” were a circus—and a window into our culture —Amit Katwala A couple of weeks ago, at a $50 million arena built in a casino parki",
-      "authors": [],
-      "tags": [],
-      "spotlight": false
-    },
-    {
-      "id": "83de4b4c55d4",
-      "title": "The “steroid olympics” were a circus—and a window into our culture",
-      "url": "https://www.technologyreview.com/2026/06/10/1138670/enhanced-games-doping-steroids-hormones-supplements-longevity/",
-      "source": "rss-mit-tech-review-ai",
-      "category": "news",
-      "date": "2026-06-10",
-      "summary": "Testosterone. Methenolone. Nandrolone. Human growth hormone and EPO. Meldonium, modafinil, and mixed amphetamine salts. Clomiphene, anastrozole, levothyroxine, and liothyronine. Patches and capsules, creams and pills. A whole galaxy of steroids, metabolic modulators, and synthetic hormones coursing ",
       "authors": [],
       "tags": [],
       "spotlight": false
@@ -2083,20 +2071,6 @@
       "spotlight": false
     },
     {
-      "id": "29ef640d3d7d",
-      "title": "CursorBar: Keep an eye on spending and agent status' in your macOS MenuBar",
-      "url": "https://github.com/c-johannesen/cursorbar",
-      "source": "hacker-news",
-      "category": "discussion",
-      "date": "2026-06-12",
-      "summary": "Points: 1, Comments: 0",
-      "authors": [],
-      "tags": [
-        "agent"
-      ],
-      "spotlight": false
-    },
-    {
       "id": "032ac65c27ac",
       "title": "Demystifying Hidden-State Recurrence: Switchable Latent Reasoning with On-Policy Reinforcement Learning",
       "url": "https://huggingface.co/papers/2606.13106",
@@ -2272,6 +2246,18 @@
       "upvotes": 0
     },
     {
+      "id": "98e765e1b917",
+      "title": "High-Level Notes on DS/ML Job Hunting",
+      "url": "https://gentrexha.xyz/datascience/machinelearning/interviews/career/jobsearch/2026/06/11/preparing-for-ds-ml-interviews-part-1.html",
+      "source": "hacker-news",
+      "category": "discussion",
+      "date": "2026-06-12",
+      "summary": "Points: 1, Comments: 1",
+      "authors": [],
+      "tags": [],
+      "spotlight": false
+    },
+    {
       "id": "02c27966c60b",
       "title": "How Does the Video Codec Influence the Prediction Scores of an AI Model?",
       "url": "https://www.fourthline.com/newsroom/supervised-vs-contrastive-classification",
@@ -2333,6 +2319,18 @@
       "category": "news",
       "date": "2026-06-12",
       "summary": "MIT Technology Review&#160;Explains: Let our writers untangle the complex, messy world of science and technology to help you understand what’s coming next.&#160;You can read more from the series here. Your brain lives in the dark space of your skull. Yet it knows when the wind lifts the hairs on you",
+      "authors": [],
+      "tags": [],
+      "spotlight": false
+    },
+    {
+      "id": "4bb4064ad630",
+      "title": "Isomorphic Labs Hunts Hidden Drug Targets",
+      "url": "https://spectrum.ieee.org/isomorphic-labs-ai-drug-discovery",
+      "source": "hacker-news",
+      "category": "discussion",
+      "date": "2026-06-12",
+      "summary": "Points: 1, Comments: 0",
       "authors": [],
       "tags": [],
       "spotlight": false
@@ -2669,6 +2667,20 @@
       "summary": "Points: 1, Comments: 0",
       "authors": [],
       "tags": [],
+      "spotlight": false
+    },
+    {
+      "id": "ddfffa77ec44",
+      "title": "The Download: “reprogramming” aging, and the hidden sense of interoception",
+      "url": "https://www.technologyreview.com/2026/06/12/1138899/the-download-reprogramming-reverse-aging-interoception/",
+      "source": "rss-mit-tech-review-ai",
+      "category": "news",
+      "date": "2026-06-12",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Why “reprogramming” is the buzziest approach to reversing aging right now Earlier this week, Life Biosciences, a biotech company focused on reversing ",
+      "authors": [],
+      "tags": [
+        "agi"
+      ],
       "spotlight": false
     },
     {
