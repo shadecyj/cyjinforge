@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-11T03:58:37.708399+00:00",
+  "generated_at": "2026-10-12T04:19:51.330315+00:00",
   "stats": {
-    "total": 169,
+    "total": 167,
     "papers": 30,
-    "projects": 51,
+    "projects": 42,
     "news": 50,
-    "discussions": 38,
-    "spotlight": 17
+    "discussions": 45,
+    "spotlight": 16
   },
   "entries": [
     {
@@ -54,13 +54,13 @@
       "spotlight": true
     },
     {
-      "id": "6515cfb51b6a",
-      "title": "The looming AI consciousness trainwreck (2022)",
-      "url": "https://blog.plan99.net/the-looming-ai-consciousness-train-wreck-2e23165b3246",
+      "id": "6e1c2b4d1c21",
+      "title": "Polysilicon Consciousness",
+      "url": "https://polysilicon-consciousness.pages.dev/about",
       "source": "hacker-news",
       "category": "discussion",
-      "date": "2026-10-09",
-      "summary": "Points: 3, Comments: 0",
+      "date": "2026-10-11",
+      "summary": "Points: 2, Comments: 0",
       "authors": [],
       "tags": [
         "spotlight"
@@ -68,13 +68,13 @@
       "spotlight": true
     },
     {
-      "id": "f72dbc5e4070",
-      "title": "openJiuwen发布并开源企业级AgentOS，加速智能体规模落地企业",
-      "url": "https://www.qbitai.com/2026/10/502106.html",
-      "source": "rss-量子位",
-      "category": "news",
-      "date": "2026-10-09",
-      "summary": "多Agent协同还能自我进化",
+      "id": "7c506f16828d",
+      "title": "Self-improving RLM agent for coding workflows and long-running autonomous tasks",
+      "url": "https://github.com/PrimeIntellect-ai/prime-agent",
+      "source": "hacker-news",
+      "category": "discussion",
+      "date": "2026-10-11",
+      "summary": "Points: 1, Comments: 0",
       "authors": [],
       "tags": [
         "agent",
@@ -83,77 +83,91 @@
       "spotlight": true
     },
     {
-      "id": "a56cdeb92f2b",
-      "title": "Can AI Agents Make Open-Ended Scientific Discovery? Evidence from Station",
-      "url": "https://huggingface.co/papers/2610.08927",
+      "id": "f5946689a023",
+      "title": "EmbodiedCLBench: Evaluating Continual Learning for Self-Evolving Embodied Agents",
+      "url": "https://huggingface.co/papers/2610.13021",
       "source": "huggingface",
       "category": "paper",
-      "date": "2026-10-11",
-      "summary": "Recent AI systems have made rapid progress in scientific discovery when given well-defined metrics, but whether they can autonomously undertake open-ended scientific discovery remains unclear. We investigate AI's ability to tackle open-ended tasks in Station, an open-world environment in which multi",
+      "date": "2026-10-12",
+      "summary": "Continual learning requires models to accumulate past experience and transfer it to new tasks. Despite substantial research on continual learning, existing work remains largely confined to non-embodied settings, without extending to embodied environments. To address this gap, we introduce EmbodiedCL",
       "authors": [],
       "tags": [
+        " embodied",
         "agent",
-        "rag",
-        "spotlight"
-      ],
-      "spotlight": true,
-      "upvotes": 0
-    },
-    {
-      "id": "264f2656524a",
-      "title": "Frozen Models, Evolving Expertise: Model-Agnostic Learning from Deployment Experience for Multimodal Medical AI",
-      "url": "https://huggingface.co/papers/2610.09146",
-      "source": "huggingface",
-      "category": "paper",
-      "date": "2026-10-11",
-      "summary": "Large language models (LLMs) and vision-language models (VLMs) are usually frozen after deployment, so they do not learn from the cases they solve. This is especially concerning in medicine, where new clinical evidence, updated guidelines, and new therapies can change established practice. Fine-tuni",
-      "authors": [],
-      "tags": [
-        "fine-tuning",
-        "large language model",
-        "large language models",
-        "llm",
-        "multimodal",
-        "reasoning",
         "spotlight",
-        "tool use"
+        "zero-shot"
       ],
       "spotlight": true,
       "upvotes": 0
     },
     {
-      "id": "516da972c21e",
-      "title": "Incidental information contaminates patient notes and disrupts clinical reasoning in large language models",
-      "url": "https://huggingface.co/papers/2610.08585",
+      "id": "a50973944781",
+      "title": "From Given to Gathered Evidence: Agentic Learning for Longitudinal Medical Reasoning",
+      "url": "https://huggingface.co/papers/2609.39566",
       "source": "huggingface",
       "category": "paper",
-      "date": "2026-10-11",
-      "summary": "Large language models (LLMs) are increasingly relied upon to support ambient documentation and clinical reasoning. Here we examine the impact of a failure mode shared between these two applications by assessing their sensitivity to information incidental to the patient encounter. In 576 patient-clin",
-      "authors": [],
-      "tags": [
-        "large language model",
-        "large language models",
-        "llm",
-        "reasoning",
-        "spotlight"
-      ],
-      "spotlight": true,
-      "upvotes": 0
-    },
-    {
-      "id": "72805e1bf24f",
-      "title": "Memento 3: Model-Based Recursive Self-Improvement through Reflective Rulebooks",
-      "url": "https://huggingface.co/papers/2610.11794",
-      "source": "huggingface",
-      "category": "paper",
-      "date": "2026-10-11",
-      "summary": "Learning to act in unfamiliar environments requires agents to infer how the world works and revise that understanding as new evidence arrives. Yet limited observations can support multiple world models that explain past interactions but predict different outcomes in unseen states. We introduce Memen",
+      "date": "2026-10-12",
+      "summary": "Foundation models can serve as clinical agents through tool-use harnesses. However, conventional medical benchmarks assess reasoning over preselected evidence rather than the ability to seek it across clinical records and longitudinal imaging. We propose CASE: a series of role-specific Clinical Agen",
       "authors": [],
       "tags": [
         "agent",
         "agi",
+        "fine-tuning",
+        "foundation model",
         "llm",
+        "multimodal",
+        "reasoning",
+        "spotlight"
+      ],
+      "spotlight": true,
+      "upvotes": 0
+    },
+    {
+      "id": "d9c82425f66d",
+      "title": "Judging in Latent Space: Efficient Generative Reward Modeling via Semantics-Preserving Compression",
+      "url": "https://huggingface.co/papers/2610.09788",
+      "source": "huggingface",
+      "category": "paper",
+      "date": "2026-10-12",
+      "summary": "Reward modeling often requires jointly representing and reasoning over multiple evaluation criteria, yet verbalizing this process token by token can incur substantial inference cost. Recent work on latent reasoning suggests that continuous states may support this computation more compactly. We intro",
+      "authors": [],
+      "tags": [
+        "fine-tuning",
+        "generative",
+        "reasoning",
+        "spotlight"
+      ],
+      "spotlight": true,
+      "upvotes": 0
+    },
+    {
+      "id": "929b7af792d4",
+      "title": "MASS: Recursive Self-Improvement Through Multi-Agent Self-Supervision",
+      "url": "https://pub.sakana.ai/mass/?href=",
+      "source": "hacker-news",
+      "category": "discussion",
+      "date": "2026-10-12",
+      "summary": "Points: 4, Comments: 0",
+      "authors": [],
+      "tags": [
+        "agent",
+        "multi-agent",
+        "spotlight"
+      ],
+      "spotlight": true
+    },
+    {
+      "id": "557b383ffaed",
+      "title": "RSI-Anything: Unlocking Recursive Self-Improvement with World Models",
+      "url": "https://huggingface.co/papers/2610.13912",
+      "source": "huggingface",
+      "category": "paper",
+      "date": "2026-10-12",
+      "summary": "Recursive self-improvement (RSI) aims to transform interaction experience into persistent improvements, yet external feedback is costly and world-model predictions may become unreliable as policies evolve. We introduce RSI-Anything, a domain-general framework built on JEPA-Anything that uses predict",
+      "authors": [],
+      "tags": [
         "planning",
+        "rag",
         "spotlight",
         "world model"
       ],
@@ -161,97 +175,72 @@
       "upvotes": 0
     },
     {
-      "id": "6b69dc377c7f",
-      "title": "U-Space: Uncovering When and Why Uncertainty Arises in Language Models",
-      "url": "https://huggingface.co/papers/2610.09087",
+      "id": "cd242f318d18",
+      "title": "SepGen: Multi-Stem Audio-Video Separation and Generation in a Single Model",
+      "url": "https://huggingface.co/papers/2610.11361",
       "source": "huggingface",
       "category": "paper",
-      "date": "2026-10-11",
-      "summary": "Large language models are informing decisions with ever-higher stakes. As the consequences of their errors grow, a central question becomes harder to ignore: how much can we trust an individual answer? Yet recognizing when to defer remains difficult because language models can present incorrect conc",
+      "date": "2026-10-12",
+      "summary": "A 4D audio-visual scene comprises a video, the dynamic geometry it depicts, and the sound sources that populate it, each with its own position and trajectory. Rendering such a scene from a novel viewpoint requires that every source be available as an individual waveform, so that it can be localized ",
       "authors": [],
       "tags": [
-        "large language model",
-        "large language models",
-        "reasoning",
         "spotlight"
       ],
       "spotlight": true,
       "upvotes": 0
     },
     {
-      "id": "9552fbf5b9b7",
-      "title": "You Changed Your Mind, The Model Didn't: Demystifying Intent in Multi-Turn Dialogue",
-      "url": "https://huggingface.co/papers/2610.06496",
-      "source": "huggingface",
-      "category": "paper",
-      "date": "2026-10-11",
-      "summary": "When a large language model handles a multi-turn task and a user proposes a change but ultimately rejects it, the model should continue as if nothing changed. We find a surprising failure: merely mentioning a rejected change can derail task execution, even when the user's final intent remains unchan",
+      "id": "c040c3acff1f",
+      "title": "Show HN: I made an agent can self-improving while working",
+      "url": "https://yehuitang0316.github.io/gear-site/",
+      "source": "hacker-news",
+      "category": "discussion",
+      "date": "2026-10-12",
+      "summary": "Points: 5, Comments: 2",
       "authors": [],
-      "tags": [
-        "large language model",
-        "spotlight"
-      ],
-      "spotlight": true,
-      "upvotes": 0
-    },
-    {
-      "id": "80b72bd0aba2",
-      "title": "login?return_to=%2FBitterSecurity%2FDecepticon\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:997390194,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending/python?since=daily&quot;,&quot;user_id&quot;:null}}",
-      "url": "https://github.com/login?return_to=%2FBitterSecurity%2FDecepticon\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:997390194,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending/python?since=daily&quot;,&quot;user_id&quot;:null}}",
-      "source": "github-trending",
-      "category": "project",
-      "date": "2026-10-11",
-      "summary": "Autonomous Hacking Agent for Red Team",
-      "authors": [
-        "login?return_to=%2FBitterSecurity%2FDecepticon\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:997390194,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https:"
-      ],
       "tags": [
         "agent",
-        "spotlight",
-        "Python"
+        "spotlight"
       ],
-      "spotlight": true,
-      "stars_today": "81"
+      "spotlight": true
     },
     {
-      "id": "a0e60d3b8131",
-      "title": "login?return_to=%2FNVIDIA%2Fcosmos\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:910176789,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending/jupyter-notebook?since=daily&quot;,&quot;user_id&quot;:null}}",
-      "url": "https://github.com/login?return_to=%2FNVIDIA%2Fcosmos\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:910176789,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending/jupyter-notebook?since=daily&quot;,&quot;user_id&quot;:null}}",
-      "source": "github-trending",
-      "category": "project",
-      "date": "2026-10-11",
-      "summary": "NVIDIA Cosmos is an open platform of world models, datasets, and tools that enables developers to build Physical AI for robots, autonomous vehicles, smart infrastructure, and more.",
-      "authors": [
-        "login?return_to=%2FNVIDIA%2Fcosmos\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:910176789,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https:"
-      ],
+      "id": "ed391433add8",
+      "title": "Video-RSI: Recursive Self-Improvement of Video Understanding Agents via Harness Evolution",
+      "url": "https://huggingface.co/papers/2609.37950",
+      "source": "huggingface",
+      "category": "paper",
+      "date": "2026-10-12",
+      "summary": "Video understanding agents acquire evidence through an executable harness that controls what they observe and how they use those observations. However, execution traces contain only the evidence acquired by the current harness, leaving competing explanations for failure unresolved and limiting the b",
+      "authors": [],
       "tags": [
-        "robot",
-        "spotlight",
-        "world model",
-        "Jupyter Notebook"
+        "agent",
+        "spotlight"
       ],
       "spotlight": true,
-      "stars_today": "7"
+      "upvotes": 0
     },
     {
-      "id": "e4c1d229270b",
-      "title": "login?return_to=%2FQwenLM%2FQwen3-VL\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:849239437,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending/jupyter-notebook?since=daily&quot;,&quot;user_id&quot;:null}}",
-      "url": "https://github.com/login?return_to=%2FQwenLM%2FQwen3-VL\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:849239437,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending/jupyter-notebook?since=daily&quot;,&quot;user_id&quot;:null}}",
-      "source": "github-trending",
-      "category": "project",
-      "date": "2026-10-11",
-      "summary": "Qwen3-VL is the multimodal large language model series developed by Qwen team, Alibaba Cloud.",
-      "authors": [
-        "login?return_to=%2FQwenLM%2FQwen3-VL\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:849239437,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https:"
-      ],
+      "id": "d92c18696ffc",
+      "title": "VisionWeave: Weaving Elastic Visual Representations as a Native Capability of MLLMs",
+      "url": "https://huggingface.co/papers/2610.07987",
+      "source": "huggingface",
+      "category": "paper",
+      "date": "2026-10-12",
+      "summary": "Multimodal large language models have become the dominant paradigm for visual understanding, but incur substantial costs by encoding inputs into dense, fixed-size patch tokens. However, visual information is unevenly distributed: some regions require fine-grained detail, while others admit compact r",
+      "authors": [],
       "tags": [
+        "foundation model",
         "large language model",
+        "large language models",
+        "llm",
         "multimodal",
-        "spotlight",
-        "Jupyter Notebook"
+        "pruning",
+        "rag",
+        "spotlight"
       ],
       "spotlight": true,
-      "stars_today": "7"
+      "upvotes": 0
     },
     {
       "id": "31842675f082",
@@ -259,7 +248,7 @@
       "url": "https://github.com/login?return_to=%2Fhuggingface%2Ftransformers\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:155220641,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending/python?since=daily&quot;,&quot;user_id&quot;:null}}",
       "source": "github-trending",
       "category": "project",
-      "date": "2026-10-11",
+      "date": "2026-10-12",
       "summary": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.",
       "authors": [
         "login?return_to=%2Fhuggingface%2Ftransformers\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:155220641,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https:"
@@ -271,27 +260,7 @@
         "Python"
       ],
       "spotlight": true,
-      "stars_today": "96"
-    },
-    {
-      "id": "1978674e64b0",
-      "title": "login?return_to=%2Fhuggingface%2Ftransformers\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:155220641,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending?since=daily&quot;,&quot;user_id&quot;:null}}",
-      "url": "https://github.com/login?return_to=%2Fhuggingface%2Ftransformers\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:155220641,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending?since=daily&quot;,&quot;user_id&quot;:null}}",
-      "source": "github-trending",
-      "category": "project",
-      "date": "2026-10-11",
-      "summary": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.",
-      "authors": [
-        "login?return_to=%2Fhuggingface%2Ftransformers\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:155220641,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https:"
-      ],
-      "tags": [
-        "multimodal",
-        "spotlight",
-        "transformer",
-        "Python"
-      ],
-      "spotlight": true,
-      "stars_today": "96"
+      "stars_today": "501"
     },
     {
       "id": "356b3516de61",
@@ -299,7 +268,7 @@
       "url": "https://github.com/login?return_to=%2Fsgl-project%2Fsglang\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:740303686,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending/python?since=daily&quot;,&quot;user_id&quot;:null}}",
       "source": "github-trending",
       "category": "project",
-      "date": "2026-10-11",
+      "date": "2026-10-12",
       "summary": "SGLang is a high-performance serving framework for large language models and multimodal models.",
       "authors": [
         "login?return_to=%2Fsgl-project%2Fsglang\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:740303686,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https:"
@@ -312,7 +281,7 @@
         "Python"
       ],
       "spotlight": true,
-      "stars_today": "42"
+      "stars_today": "29"
     },
     {
       "id": "7e527d9e0fdc",
@@ -525,21 +494,6 @@
       "spotlight": false
     },
     {
-      "id": "399deb1efbfa",
-      "title": "Nvidia’s erroneous paper accepted as ICML’s spotlight [D]",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1x0i6b5/nvidias_erroneous_paper_accepted_as_icmls/",
-      "source": "rss-reddit-ml",
-      "category": "news",
-      "date": "2026-10-08",
-      "summary": "Here is the story: Nvidia has published this work (with source code available) called dreamDojo which is a world model for robotics based of their prior work Cosmos 2.5 which is cited about 100 times and got ICML’s spotlight. Authors are very well known and respected in the field with too many peer ",
-      "authors": [],
-      "tags": [
-        "robot",
-        "world model"
-      ],
-      "spotlight": false
-    },
-    {
       "id": "c74496bae56e",
       "title": "The Download: AI roadblocks for humanoids and portable rubber dams",
       "url": "https://www.technologyreview.com/2026/10/08/1146045/the-download-ai-roadblocks-humanoids-portable-rubber-dams/",
@@ -561,90 +515,6 @@
       "category": "news",
       "date": "2026-10-08",
       "summary": "This week, we released our 2026 version of our Climate Tech Companies to Watch list. It’s an annual project that the MIT Technology Review team puts together. Our goal is to highlight some of the promising, interesting advances and firms we think are worth paying attention to in the world of climate",
-      "authors": [],
-      "tags": [],
-      "spotlight": false
-    },
-    {
-      "id": "d1aa1d6ed960",
-      "title": "0.2秒急停、秒级重规划！因果智能走进真实世界",
-      "url": "https://www.qbitai.com/2026/10/502411.html",
-      "source": "rss-量子位",
-      "category": "news",
-      "date": "2026-10-09",
-      "summary": "这是一台机器人正在关闭微波炉门时，因人手突然插进来而紧急悬停的时间",
-      "authors": [],
-      "tags": [],
-      "spotlight": false
-    },
-    {
-      "id": "df5220d24351",
-      "title": "ARR Oct Discussion [D]",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1x1ke20/arr_oct_discussion_d/",
-      "source": "rss-reddit-ml",
-      "category": "news",
-      "date": "2026-10-09",
-      "summary": "Are there actually fewer submissions this cycle or are people waiting for ARR Aug Meta to be out? I saw an 1.8k submission ID yesterday.   &#32; submitted by &#32;  /u/StriderKing27   [link] &#32; [comments]",
-      "authors": [],
-      "tags": [],
-      "spotlight": false
-    },
-    {
-      "id": "4830c0bef852",
-      "title": "Artificial Intelligence in the Firm: Bottlenecks in Software Production [pdf]",
-      "url": "https://fion.ac/jellyfish.pdf",
-      "source": "hacker-news",
-      "category": "discussion",
-      "date": "2026-10-09",
-      "summary": "Points: 3, Comments: 0",
-      "authors": [],
-      "tags": [],
-      "spotlight": false
-    },
-    {
-      "id": "89c082b53158",
-      "title": "Clarification ARR Commitment [D]",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1x1lkln/clarification_arr_commitment_d/",
-      "source": "rss-reddit-ml",
-      "category": "news",
-      "date": "2026-10-09",
-      "summary": "I want to commit my ARR paper to EACL 2027 and I see I have to attach a pdf.  Should I address the reviewer comments/suggestions (minor things) in this version already or wait for camera ready if accepted? I thought I just had to provide the link to the reviews but now I am confused.  &#32; submitte",
-      "authors": [],
-      "tags": [],
-      "spotlight": false
-    },
-    {
-      "id": "b7d69d674bca",
-      "title": "How Much Does One AI Token Cost?",
-      "url": "https://machine-learning-made-simple.medium.com/how-much-does-one-ai-token-really-cost-3e98f2a877f6",
-      "source": "hacker-news",
-      "category": "discussion",
-      "date": "2026-10-09",
-      "summary": "Points: 1, Comments: 0",
-      "authors": [],
-      "tags": [],
-      "spotlight": false
-    },
-    {
-      "id": "fd643f55685e",
-      "title": "I built MaRN: a PyTorch library for training neural networks through low-dimensional parameter mappings [P]",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1x1fjrv/i_built_marn_a_pytorch_library_for_training/",
-      "source": "rss-reddit-ml",
-      "category": "news",
-      "date": "2026-10-09",
-      "summary": "I built MaRN (Mapping Networks), a PyTorch library that lets you optimize a compact latent representation instead of directly training every model parameter. Some results from my current benchmarks:  MNIST CNN: Reduced a 537,748-parameter CNN to 4,080 trainable parameters (131.8× reduction), with ac",
-      "authors": [],
-      "tags": [],
-      "spotlight": false
-    },
-    {
-      "id": "baacc8390dc4",
-      "title": "Integrum - Reflection based MCP server from any Python Module/Library [P]",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1x1tt7m/integrum_reflection_based_mcp_server_from_any/",
-      "source": "rss-reddit-ml",
-      "category": "news",
-      "date": "2026-10-09",
-      "summary": "Hi! I wrote a small library called Integrum that allows you to quickly create MCP server(s) from existing Python libraries or modules. It has a CLI so it is really easy to use (I hope!). It is open-source (MIT) and on PyPI, so sharing it here if somebody finds it useful. Code: https://github.com/alp",
       "authors": [],
       "tags": [],
       "spotlight": false
@@ -688,20 +558,6 @@
       "spotlight": false
     },
     {
-      "id": "117265a89d66",
-      "title": "Talus: a 23M-parameter diffusion model for game terrain, evaluated against a real-vs-real noise floor, running in the browser on WebGPU [P]",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1x1v71p/talus_a_23mparameter_diffusion_model_for_game/",
-      "source": "rss-reddit-ml",
-      "category": "news",
-      "date": "2026-10-09",
-      "summary": "Talus generates 64x64 heightmaps (4 km, up to 1,200 m) conditioned on a terrain type and any subset of five measured properties: mean elevation, relief, mean slope, water fraction and spectral slope. I trained it from scratch on one RTX 5060 (8 GB), about 4.5 hours in total across versions. The data",
-      "authors": [],
-      "tags": [
-        "diffusion"
-      ],
-      "spotlight": false
-    },
-    {
       "id": "1ad04e2d223e",
       "title": "The Download: AI’s refusal problem and weight-loss drug side effects",
       "url": "https://www.technologyreview.com/2026/10/09/1146250/the-download-ai-refusal-problem-weight-loss-drug-side-effects/",
@@ -711,34 +567,6 @@
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. We’re putting too much faith in AI’s ability to say no Today’s AI models are trained to refuse a vast number of prompts. If you ask your chatbot how t",
       "authors": [],
       "tags": [],
-      "spotlight": false
-    },
-    {
-      "id": "fc06608d24dd",
-      "title": "ThinkingBox: Solving an agent task once vs. solving it 20/20: 507 stateful workflows graded on terminal database state [R]",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1x17shf/thinkingbox_solving_an_agent_task_once_vs_solving/",
-      "source": "rss-reddit-ml",
-      "category": "news",
-      "date": "2026-10-09",
-      "summary": "Figure 1b from our paper Disclosure: I'm one of the authors (Microsoft). The paper, code, dataset are public and ThinkingBox is on Hugging Face OpenEnv as well. Raw evaluation trajectories are not released Links at the bottom. We wanted to know how much of a single agent success rate survives repeti",
-      "authors": [],
-      "tags": [
-        "agent"
-      ],
-      "spotlight": false
-    },
-    {
-      "id": "f7a04a27a908",
-      "title": "Welcome to Gemini at Work 2026: Introducing the Gemini Agent",
-      "url": "https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026",
-      "source": "hacker-news",
-      "category": "discussion",
-      "date": "2026-10-09",
-      "summary": "Points: 2, Comments: 1",
-      "authors": [],
-      "tags": [
-        "agent"
-      ],
       "spotlight": false
     },
     {
@@ -770,85 +598,13 @@
       "spotlight": false
     },
     {
-      "id": "4bda9139b8c6",
-      "title": "《柳叶刀》研究表明：AI 有望改善医患关系",
-      "url": "https://www.qbitai.com/2026/10/502359.html",
+      "id": "8ea0853faf8a",
+      "title": "24天！Jev估值翻至75亿美元，年度硅谷最爽逆袭了吧",
+      "url": "https://www.qbitai.com/2026/10/502492.html",
       "source": "rss-量子位",
       "category": "news",
-      "date": "2026-10-09",
-      "summary": "Google 研究成果首次登上《柳叶刀》主刊",
-      "authors": [],
-      "tags": [],
-      "spotlight": false
-    },
-    {
-      "id": "1d8285192801",
-      "title": "字节找到了DeepSeek时强时弱的原因",
-      "url": "https://www.qbitai.com/2026/10/502364.html",
-      "source": "rss-量子位",
-      "category": "news",
-      "date": "2026-10-09",
-      "summary": "答不答得对，得看Token站位",
-      "authors": [],
-      "tags": [],
-      "spotlight": false
-    },
-    {
-      "id": "e9cadc0d87ae",
-      "title": "尊界深夜回应“刹车踏板断裂”，懂车帝再发声",
-      "url": "https://www.qbitai.com/2026/10/502114.html",
-      "source": "rss-量子位",
-      "category": "news",
-      "date": "2026-10-09",
-      "summary": "江淮再度跌停",
-      "authors": [],
-      "tags": [],
-      "spotlight": false
-    },
-    {
-      "id": "8238687d4ae6",
-      "title": "清华具身模型登顶全球第一！突围GPT-6、英伟达，不靠外挂和额外数据",
-      "url": "https://www.qbitai.com/2026/10/502125.html",
-      "source": "rss-量子位",
-      "category": "news",
-      "date": "2026-10-09",
-      "summary": "星动纪元选择将视频预测与动作学习分阶段训练，重点不是「视频、动作一锅炖」，而是把两者「解耦」，重新「排序」。",
-      "authors": [],
-      "tags": [],
-      "spotlight": false
-    },
-    {
-      "id": "ddd634b5912f",
-      "title": "灵巧操作头号玩家：Sharpa把指尖「触觉」进化到全面「体感」",
-      "url": "https://www.qbitai.com/2026/10/502330.html",
-      "source": "rss-量子位",
-      "category": "news",
-      "date": "2026-10-09",
-      "summary": "机器人摆脱展会、舞台Demo，产生真实商业价值，究竟需要哪些东西？",
-      "authors": [],
-      "tags": [],
-      "spotlight": false
-    },
-    {
-      "id": "08b0ff304253",
-      "title": "联想天禧自研代码智能体TianxiCode斩获SWE-bench-Live全球第一",
-      "url": "https://www.qbitai.com/2026/10/502422.html",
-      "source": "rss-量子位",
-      "category": "news",
-      "date": "2026-10-09",
-      "summary": "联想天禧AI自主研发的专业代码智能体框架TianxiCode 以71%的问题解决率登顶全球第一名",
-      "authors": [],
-      "tags": [],
-      "spotlight": false
-    },
-    {
-      "id": "99b66411d308",
-      "title": "Anthropic's AI gave Philadelphia police a fake tip about an unsolved homicide",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1009090/anthropic-fake-homicide-information-philadelphia-pd-tip",
-      "source": "hacker-news",
-      "category": "discussion",
       "date": "2026-10-10",
-      "summary": "Points: 16, Comments: 1",
+      "summary": "",
       "authors": [],
       "tags": [],
       "spotlight": false
@@ -881,44 +637,6 @@
       "spotlight": false
     },
     {
-      "id": "e6916c34e74b",
-      "title": "Ask HN: Built a benchmark? Would love to learn",
-      "url": "https://news.ycombinator.com/item?id=50038151",
-      "source": "hacker-news",
-      "category": "discussion",
-      "date": "2026-10-10",
-      "summary": "Points: 2, Comments: 0",
-      "authors": [],
-      "tags": [],
-      "spotlight": false
-    },
-    {
-      "id": "eac05b450f86",
-      "title": "Ask HN: Locked out of Google despite knowing password and having email access",
-      "url": "https://news.ycombinator.com/item?id=50037004",
-      "source": "hacker-news",
-      "category": "discussion",
-      "date": "2026-10-10",
-      "summary": "Points: 6, Comments: 2",
-      "authors": [],
-      "tags": [],
-      "spotlight": false
-    },
-    {
-      "id": "fd77c3090fb4",
-      "title": "CAVEWOMAN: How LLMs Behave Under Linguistic Input and Output Compression",
-      "url": "https://arxiv.org/abs/2606.24083",
-      "source": "hacker-news",
-      "category": "discussion",
-      "date": "2026-10-10",
-      "summary": "Points: 3, Comments: 0",
-      "authors": [],
-      "tags": [
-        "llm"
-      ],
-      "spotlight": false
-    },
-    {
       "id": "9c1fa6495949",
       "title": "Can Artificial Intelligence Learn the Art of Surgery?",
       "url": "https://www.nytimes.com/2026/10/07/world/canada/surgery-artificial-intelligence-canada.html",
@@ -926,18 +644,6 @@
       "category": "discussion",
       "date": "2026-10-10",
       "summary": "Points: 4, Comments: 1",
-      "authors": [],
-      "tags": [],
-      "spotlight": false
-    },
-    {
-      "id": "bd87e87c6822",
-      "title": "Help With Choosing Hardware [P]",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1x29lqj/help_with_choosing_hardware_p/",
-      "source": "rss-reddit-ml",
-      "category": "news",
-      "date": "2026-10-10",
-      "summary": "&#x200b; I am going to fine-tune a satire model, with the base model being `Qwen3.5-14B-Base`. The dataset has ~18000 examples, most of which are pretty long and do not align with the model's internal knowledge (they have incorrect answers to facts), so I needed to do a full fine tune rather than us",
       "authors": [],
       "tags": [],
       "spotlight": false
@@ -963,7 +669,19 @@
       "source": "hacker-news",
       "category": "discussion",
       "date": "2026-10-10",
-      "summary": "Points: 33, Comments: 95",
+      "summary": "Points: 33, Comments: 100",
+      "authors": [],
+      "tags": [],
+      "spotlight": false
+    },
+    {
+      "id": "74ea5cec6bd9",
+      "title": "Nano Banana终于2.1了！4K直出，中文进步太明显",
+      "url": "https://www.qbitai.com/2026/10/502484.html",
+      "source": "rss-量子位",
+      "category": "news",
+      "date": "2026-10-10",
+      "summary": "",
       "authors": [],
       "tags": [],
       "spotlight": false
@@ -983,68 +701,6 @@
       "spotlight": false
     },
     {
-      "id": "f58aa53f7966",
-      "title": "Show HN: Flopper is a hardware explorer for AI infrastructure and beyond",
-      "url": "https://flopper.io/",
-      "source": "hacker-news",
-      "category": "discussion",
-      "date": "2026-10-10",
-      "summary": "Points: 2, Comments: 0",
-      "authors": [],
-      "tags": [],
-      "spotlight": false
-    },
-    {
-      "id": "b74b9a845b0b",
-      "title": "Show HN: Mailbox Viewer – publish FOIA email dumps as a static Gmail-like site",
-      "url": "https://github.com/rahimnathwani/mailbox-viewer",
-      "source": "hacker-news",
-      "category": "discussion",
-      "date": "2026-10-10",
-      "summary": "Points: 1, Comments: 0",
-      "authors": [],
-      "tags": [],
-      "spotlight": false
-    },
-    {
-      "id": "cb71020bb276",
-      "title": "Show HN: Tutor, a self-hosted LLM tutor that teaches you your books or docs",
-      "url": "https://github.com/demetrius-edelin/tutor",
-      "source": "hacker-news",
-      "category": "discussion",
-      "date": "2026-10-10",
-      "summary": "Points: 1, Comments: 0",
-      "authors": [],
-      "tags": [
-        "llm"
-      ],
-      "spotlight": false
-    },
-    {
-      "id": "4d37be0f9ce1",
-      "title": "There has been no increase in car sales in China in over a decade",
-      "url": "https://twitter.com/lymanstoneky/status/2107227592151445963",
-      "source": "hacker-news",
-      "category": "discussion",
-      "date": "2026-10-10",
-      "summary": "Points: 5, Comments: 1",
-      "authors": [],
-      "tags": [],
-      "spotlight": false
-    },
-    {
-      "id": "d9cf349bf11c",
-      "title": "Woven by Toyota MLE Interview - PyTorch Debugging [D]",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1x230k9/woven_by_toyota_mle_interview_pytorch_debugging_d/",
-      "source": "rss-reddit-ml",
-      "category": "news",
-      "date": "2026-10-10",
-      "summary": "I have an upcoming interview with Woven by Toyota for an MLE perception role. I was told the round would be focused on ML coding/debugging. Specifically, I was told to focus on Python fundamentals, PyTorch, tensor operations and dimensions/shapes, common model-training code patterns, and debugging M",
-      "authors": [],
-      "tags": [],
-      "spotlight": false
-    },
-    {
       "id": "bc784c944702",
       "title": "特斯拉FSD，在欧洲被打回原形",
       "url": "https://www.qbitai.com/2026/10/502467.html",
@@ -1057,282 +713,102 @@
       "spotlight": false
     },
     {
-      "id": "b0e4bd096af1",
-      "title": "500B Tokens Later: Letting AI Agents Decompile a First-Person Shooter",
-      "url": "https://momo5502.com/posts/2026-10-09-game-decompilation/",
-      "source": "hacker-news",
-      "category": "discussion",
-      "date": "2026-10-11",
-      "summary": "Points: 59, Comments: 41",
+      "id": "3371518db095",
+      "title": "西门子将亮相2026工博会：以软硬协同的工业全栈能力，推动物理AI加速落地",
+      "url": "https://www.qbitai.com/2026/10/502541.html",
+      "source": "rss-量子位",
+      "category": "news",
+      "date": "2026-10-10",
+      "summary": "西门子将以更集中、更场景化的方式，展示其工业全栈能力",
+      "authors": [],
+      "tags": [],
+      "spotlight": false
+    },
+    {
+      "id": "d84df47b68f5",
+      "title": "超清双2亿，掌中电影机，荣耀Magic9 系列正式发布，售价4499元起",
+      "url": "https://www.qbitai.com/2026/10/502496.html",
+      "source": "rss-量子位",
+      "category": "news",
+      "date": "2026-10-10",
+      "summary": "2026年9月28日，荣耀（HONOR）在北京举办荣耀Magic盛典暨荣耀Magic9 系列新品发布会",
       "authors": [],
       "tags": [
-        "agent"
+        "agi"
       ],
       "spotlight": false
     },
     {
-      "id": "2799a5e9a8e5",
-      "title": "A Closer Look at Agentic BBO: Benchmarking LLM Agents for Black-Box Optimization",
-      "url": "https://huggingface.co/papers/2610.12183",
-      "source": "huggingface",
-      "category": "paper",
-      "date": "2026-10-11",
-      "summary": "Black-box optimization (BBO) arises in many scientific and engineering problems where objective evaluations are expensive and limited. Recent large language model (LLM) agents offer a new way to approach BBO by combining task semantics, computation, optimization tools, and feedback-driven decision m",
-      "authors": [],
-      "tags": [
-        "agent",
-        "large language model",
-        "llm",
-        "rag"
-      ],
-      "spotlight": false,
-      "upvotes": 0
-    },
-    {
-      "id": "309a00167ed3",
-      "title": "A GPU-Parallel Framework for Heterogeneous Multi-Task Reinforcement Learning",
-      "url": "https://huggingface.co/papers/2606.03335",
-      "source": "huggingface",
-      "category": "paper",
-      "date": "2026-10-11",
-      "summary": "GPU-parallel simulation provides abundant robot interaction, but existing benchmarks rarely combine this scale with heterogeneous manipulation tasks and standardized multi-task RL evaluation. We introduce Hebero (Heterogeneous Benchmark for Robot Learning), a GPU-parallel Isaac Lab benchmark that en",
-      "authors": [],
-      "tags": [
-        "robot"
-      ],
-      "spotlight": false,
-      "upvotes": 0
-    },
-    {
-      "id": "4441ab439a3b",
-      "title": "A new AI model that renders generative visuals of what you see",
-      "url": "https://www.weizmann.ac.il/pages/news/mathematics-and-computer-science/the-new-science-of-mind-reading",
+      "id": "cbda5d7bae57",
+      "title": "'Pure insanity': Mathematicians react to OpenAI's math results drop",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1008726/openai-mathematics-solutions-chaos",
       "source": "hacker-news",
       "category": "discussion",
       "date": "2026-10-11",
       "summary": "Points: 6, Comments: 0",
       "authors": [],
-      "tags": [
-        "generative"
-      ],
+      "tags": [],
       "spotlight": false
     },
     {
-      "id": "00aa3e2948a0",
-      "title": "A single-card GitHub profile stats generator built with Next.js",
-      "url": "https://github.com/alirezamoradiii/github-stats-card",
+      "id": "0d4509e7658d",
+      "title": "Anthropic's Claude submits false tip on a Philadelphia unsolved homicide case",
+      "url": "https://apnews.com/article/artificial-intelligence-anthropic-claude-0acc6ac46d4d80db805e8d55468a6fe1",
       "source": "hacker-news",
       "category": "discussion",
       "date": "2026-10-11",
-      "summary": "Points: 3, Comments: 0",
+      "summary": "Points: 8, Comments: 0",
       "authors": [],
       "tags": [],
       "spotlight": false
     },
     {
-      "id": "0f5eb10d723f",
-      "title": "AI Layer – Claude Code Plugins with DuckDB Memory and CI Workflows",
-      "url": "https://gitlab.com/kriscodes2-claude-plugins/ai-layer",
-      "source": "hacker-news",
-      "category": "discussion",
-      "date": "2026-10-11",
-      "summary": "Points: 1, Comments: 0",
-      "authors": [],
-      "tags": [],
-      "spotlight": false
-    },
-    {
-      "id": "c4e37ac30612",
-      "title": "AI agents in a stand-up call",
-      "url": "https://atoll92.github.io/agent-standup/",
+      "id": "df238c119d41",
+      "title": "Ask HN: Have you ever spoken truth to power?",
+      "url": "https://news.ycombinator.com/item?id=50047405",
       "source": "hacker-news",
       "category": "discussion",
       "date": "2026-10-11",
       "summary": "Points: 2, Comments: 0",
       "authors": [],
-      "tags": [
-        "agent"
-      ],
+      "tags": [],
       "spotlight": false
     },
     {
-      "id": "58051f05b900",
-      "title": "Ask HN: Do you want a router that has DD-WRT pre-installed?",
-      "url": "https://news.ycombinator.com/item?id=50039291",
-      "source": "hacker-news",
-      "category": "discussion",
+      "id": "e0ffa4878b90",
+      "title": "DeepSeek Bot来了！民间版，DSH装个插件就能用",
+      "url": "https://www.qbitai.com/2026/10/502544.html",
+      "source": "rss-量子位",
+      "category": "news",
       "date": "2026-10-11",
-      "summary": "Points: 3, Comments: 2",
+      "summary": "Grok Bot我养不起，ds bot不得高低尝尝咸淡？",
       "authors": [],
       "tags": [],
       "spotlight": false
     },
     {
-      "id": "4ce9714da85f",
-      "title": "Ask HN: Local LLM Usage Box",
-      "url": "https://news.ycombinator.com/item?id=50039529",
+      "id": "0140f6402713",
+      "title": "Do I need to do anything now to use an ARR August review for NAACL 2027? [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1x2z83e/do_i_need_to_do_anything_now_to_use_an_arr_august/",
+      "source": "rss-reddit-ml",
+      "category": "news",
+      "date": "2026-10-11",
+      "summary": "This is my first time ARR submission. I have a paper from the ARR 2026 August cycle with completed reviews and I understand the reviews remain valid for 6 months. If we want to commit to NAACL 2027 instead of EACL, do we need to do anything with the August ARR submission now, or can we simply wait a",
+      "authors": [],
+      "tags": [],
+      "spotlight": false
+    },
+    {
+      "id": "a40db7b0a8f5",
+      "title": "Driving directions from LLM memory",
+      "url": "https://fig.blue/posts/directions-from-memory/",
       "source": "hacker-news",
       "category": "discussion",
       "date": "2026-10-11",
-      "summary": "Points: 1, Comments: 0",
+      "summary": "Points: 1, Comments: 1",
       "authors": [],
       "tags": [
         "llm"
-      ],
-      "spotlight": false
-    },
-    {
-      "id": "3d573fe0a925",
-      "title": "Barnaby: Self-hosted Matrix agent that reads the room",
-      "url": "https://github.com/pkulak/barnaby-home",
-      "source": "hacker-news",
-      "category": "discussion",
-      "date": "2026-10-11",
-      "summary": "Points: 2, Comments: 1",
-      "authors": [],
-      "tags": [
-        "agent"
-      ],
-      "spotlight": false
-    },
-    {
-      "id": "3b5e206a9f83",
-      "title": "Behavioral Persistence and Incomplete Functional Transfer of Co-evolved Communication in Evolutionary Robotics",
-      "url": "https://huggingface.co/papers/2609.38527",
-      "source": "huggingface",
-      "category": "paper",
-      "date": "2026-10-11",
-      "summary": "This work evaluates the direct transfer of a co-evolved communication protocol from a 2D simulation to a 3D physical environment, without retraining the network weights. Two e-puck-type robots, controlled by a GRU network with residual connection, were evaluated in a food-seeking task with social si",
-      "authors": [],
-      "tags": [
-        "agent",
-        "robot"
-      ],
-      "spotlight": false,
-      "upvotes": 0
-    },
-    {
-      "id": "a2ffe3b4d140",
-      "title": "Beyond Spatio-Temporal Priors: A Generalizable Approach for Dense Correspondence Matching",
-      "url": "https://huggingface.co/papers/2610.12421",
-      "source": "huggingface",
-      "category": "paper",
-      "date": "2026-10-11",
-      "summary": "Dense correspondence matching has historically been bounded by simplifying spatio-temporal priors, such as smooth motion and rigid geometry. While effective for classical tasks, these assumptions break down in image editing and reference-guided generation (IEG), where transformations can preserve vi",
-      "authors": [],
-      "tags": [
-        "generative"
-      ],
-      "spotlight": false,
-      "upvotes": 0
-    },
-    {
-      "id": "1c3be16e4855",
-      "title": "CARE: Certifying Acceleration for Vision-Language-Action Inference",
-      "url": "https://huggingface.co/papers/2610.08917",
-      "source": "huggingface",
-      "category": "paper",
-      "date": "2026-10-11",
-      "summary": "While vision-language-action (VLA) models have advanced rapidly, running them at every control step remains expensive. Prior work accelerates VLA inference using techniques like action chunking and visual-token pruning, typically evaluating based on latency and average task success. However, acceler",
-      "authors": [],
-      "tags": [
-        "agent",
-        "pruning",
-        "rag"
-      ],
-      "spotlight": false,
-      "upvotes": 0
-    },
-    {
-      "id": "26ebd2012e44",
-      "title": "EDiS: Edge Disjoint Subgraph Sparsification Framework for Graph Neural Networks",
-      "url": "https://huggingface.co/papers/2610.09059",
-      "source": "huggingface",
-      "category": "paper",
-      "date": "2026-10-11",
-      "summary": "Sparse GNN training reduces computation, but deciding which edges to keep can be costly. Reusing one sparse graph is cheap, but locks training to a fixed topology, while varying it across epochs can require repeated sampling or recomputation. We introduce EDiS (Edge-Disjoint Subgraph sparsification ",
-      "authors": [],
-      "tags": [
-        "rag"
-      ],
-      "spotlight": false,
-      "upvotes": 0
-    },
-    {
-      "id": "b1076ee3733f",
-      "title": "Europe confident its rules can thwart rogue AI",
-      "url": "https://www.rnz.co.nz/news/science-and-technology/1824809/europe-confident-its-rules-can-thwart-rogue-ai",
-      "source": "hacker-news",
-      "category": "discussion",
-      "date": "2026-10-11",
-      "summary": "Points: 2, Comments: 0",
-      "authors": [],
-      "tags": [],
-      "spotlight": false
-    },
-    {
-      "id": "e8bfbc416c69",
-      "title": "Evaluating the Transfer of Co-Evolved Communication from 2D to 3D Simulation",
-      "url": "https://huggingface.co/papers/2610.09280",
-      "source": "huggingface",
-      "category": "paper",
-      "date": "2026-10-11",
-      "summary": "This work examines the transfer of a co-evolved communication mechanism between two robotic agents from a discrete two-dimensional (2D) simulator to a three-dimensional simulator with real physics (3D). The study focuses on whether a communication mechanism co-evolved in a 2D environment retains its",
-      "authors": [],
-      "tags": [
-        "agent",
-        "robot"
-      ],
-      "spotlight": false,
-      "upvotes": 0
-    },
-    {
-      "id": "143183dd9815",
-      "title": "GMKtec EVO-X3 Mini-PC Review Looking at a 128GB AMD Local AI Box",
-      "url": "https://www.servethehome.com/gmktec-evo-x3-mini-pc-review/",
-      "source": "hacker-news",
-      "category": "discussion",
-      "date": "2026-10-11",
-      "summary": "Points: 4, Comments: 0",
-      "authors": [],
-      "tags": [],
-      "spotlight": false
-    },
-    {
-      "id": "7891a091a818",
-      "title": "GPON support is coming to Linux kernel",
-      "url": "https://lore.kernel.org/netdev/20261008143249.3439762-1-john@phrozen.org/T/#t",
-      "source": "hacker-news",
-      "category": "discussion",
-      "date": "2026-10-11",
-      "summary": "Points: 3, Comments: 0",
-      "authors": [],
-      "tags": [],
-      "spotlight": false
-    },
-    {
-      "id": "0b8a90bc48f7",
-      "title": "GTA 5 is back on the web",
-      "url": "https://github.com/alihammoud21/playgta5",
-      "source": "hacker-news",
-      "category": "discussion",
-      "date": "2026-10-11",
-      "summary": "Points: 5, Comments: 0",
-      "authors": [],
-      "tags": [],
-      "spotlight": false
-    },
-    {
-      "id": "50147f8ea32f",
-      "title": "Genkit Dart 1.0: Build production-ready agentic apps with Dart and Flutter",
-      "url": "https://flutter.dev/blog/announcing-genkit-dart-1-0",
-      "source": "hacker-news",
-      "category": "discussion",
-      "date": "2026-10-11",
-      "summary": "Points: 4, Comments: 0",
-      "authors": [],
-      "tags": [
-        "agent"
       ],
       "spotlight": false
     },
@@ -1349,59 +825,13 @@
       "spotlight": false
     },
     {
-      "id": "12837a4c657d",
-      "title": "Incremental Open-Ended Deep Research with Structured Harness",
-      "url": "https://huggingface.co/papers/2610.11566",
-      "source": "huggingface",
-      "category": "paper",
+      "id": "f2a479d63b55",
+      "title": "I built a browser tool to visualize how a small LLM picks its next word and see what it's attending to [P]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1x3lgnz/i_built_a_browser_tool_to_visualize_how_a_small/",
+      "source": "rss-reddit-ml",
+      "category": "news",
       "date": "2026-10-11",
-      "summary": "Existing Open-Ended Deep Research (OEDR) systems primarily generate reports from scratch, making them inefficient for scenarios where research reports need to be continuously maintained as new information emerges. We introduce Incremental Open-Ended Deep Research (Incremental-OEDR), a research setti",
-      "authors": [],
-      "tags": [],
-      "spotlight": false,
-      "upvotes": 0
-    },
-    {
-      "id": "302fabf02b6e",
-      "title": "Investigating the Role of Reasoning-Language Alignment in Monolingual Retrieval-Augmented Generation",
-      "url": "https://huggingface.co/papers/2610.03136",
-      "source": "huggingface",
-      "category": "paper",
-      "date": "2026-10-11",
-      "summary": "Reasoning traces improve large language models (LLMs), but current models are trained to reason mostly in English. It has been shown that forcing a model to reason in another language degrades accuracy, even when the reasoning language matches the language of the prompt -- but only for a setting whe",
-      "authors": [],
-      "tags": [
-        "agent",
-        "alignment",
-        "large language model",
-        "large language models",
-        "llm",
-        "rag",
-        "reasoning"
-      ],
-      "spotlight": false,
-      "upvotes": 0
-    },
-    {
-      "id": "12a31e75bdae",
-      "title": "Jshookmcp – instrument your real signed-in Chrome via CDP",
-      "url": "https://github.com/vmoranv/jshookmcp",
-      "source": "hacker-news",
-      "category": "discussion",
-      "date": "2026-10-11",
-      "summary": "Points: 5, Comments: 0",
-      "authors": [],
-      "tags": [],
-      "spotlight": false
-    },
-    {
-      "id": "c52572a854d7",
-      "title": "LLM Pareto Frontier over time [video]",
-      "url": "https://www.youtube.com/watch?v=I01v36VIrno",
-      "source": "hacker-news",
-      "category": "discussion",
-      "date": "2026-10-11",
-      "summary": "Points: 5, Comments: 1",
+      "summary": "I made a little thing that visualizes attention. It runs SmolLM2-135M fully in the browser (onnxruntime-web, int8, no server, works on my phone). You give it a prompt, it generates one token at a time, and for each step you get the next-token candidates with probabilities, plus the attention from th",
       "authors": [],
       "tags": [
         "llm"
@@ -1409,32 +839,91 @@
       "spotlight": false
     },
     {
-      "id": "0c9cf48b7960",
-      "title": "Learning to Steer, Steering to See: Unveiling the Geometry of RLVR in Large Language Models via Trainable Vectors",
-      "url": "https://huggingface.co/papers/2609.34344",
-      "source": "huggingface",
-      "category": "paper",
+      "id": "c306ba519810",
+      "title": "I trained a 414k-parameter transformer to fly a boids flock, then tested whether the rules a probe can read are the ones it uses [P]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1x39jlu/i_trained_a_414kparameter_transformer_to_fly_a/",
+      "source": "rss-reddit-ml",
+      "category": "news",
       "date": "2026-10-11",
-      "summary": "Reinforcement learning (RL) has become a key paradigm for enhancing the reasoning of large language models, yet the high dimensionality of parameter updates makes its training dynamics hard to analyze. We study reinforcement learning with verifiable rewards (RLVR) and use vector steering to identify",
+      "summary": "I wrote a small boid simulator (12 birds), recorded it flying, and trained a transformer to predict each bird's next move without it knowing about any boid rules. (built in Python and PyTorch: a transformer written from scratch, one token per bird, two attention layers, about 414k weights, trained o",
       "authors": [],
       "tags": [
-        "alignment",
-        "large language model",
-        "large language models",
-        "llm",
-        "reasoning"
+        "transformer"
       ],
-      "spotlight": false,
-      "upvotes": 0
+      "spotlight": false
     },
     {
-      "id": "3692e8840dfe",
-      "title": "Long-term memory for AI coding agents as a tree of plain files",
-      "url": "https://github.com/gonzaroman/IHMT-MEMORY",
+      "id": "fcee192f252b",
+      "title": "Is a second MSc worth it? [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1x3a37d/is_a_second_msc_worth_it_d/",
+      "source": "rss-reddit-ml",
+      "category": "news",
+      "date": "2026-10-11",
+      "summary": "I’m an AI research engineer based in Africa with about 3 YoEs in RL, LLMs, post-training, and systems efficiency (CUDA/vLLM). However, on a smaller scale because of compute limits. My undergrad and Master’s are both in communications engineering. I did a 5th-year Master's at my local university whil",
+      "authors": [],
+      "tags": [
+        "llm"
+      ],
+      "spotlight": false
+    },
+    {
+      "id": "5d2af7e295d8",
+      "title": "NeurIPS 2026 Paris complimentary registration already full. Did any Top Reviewers get a spot? [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1x39t3h/neurips_2026_paris_complimentary_registration/",
+      "source": "rss-reddit-ml",
+      "category": "news",
+      "date": "2026-10-11",
+      "summary": "Hi everyone, I was selected as a NeurIPS 2026 Top Reviewer and awarded complimentary registration. As far as I understand, registration opened in batches: first for SACs, then ACs, and finally reviewers. However, when I received the email and tried to register, I found that the Paris venue was alrea",
+      "authors": [],
+      "tags": [],
+      "spotlight": false
+    },
+    {
+      "id": "6743a6091c67",
+      "title": "OpenAI fires 3 safety researchers in dispute over AI risks",
+      "url": "https://apnews.com/article/openai-chatgpt-ai-artificial-intelligence-safety-789d4f5293fba45a22fcb62ebfbc2a41",
       "source": "hacker-news",
       "category": "discussion",
       "date": "2026-10-11",
-      "summary": "Points: 4, Comments: 0",
+      "summary": "Points: 14, Comments: 0",
+      "authors": [],
+      "tags": [
+        "safety"
+      ],
+      "spotlight": false
+    },
+    {
+      "id": "a10c4f313578",
+      "title": "OpenDocRouter: every document model under one API",
+      "url": "https://www.llamaindex.ai/blog/introducing-opendocrouter",
+      "source": "hacker-news",
+      "category": "discussion",
+      "date": "2026-10-11",
+      "summary": "Points: 2, Comments: 0",
+      "authors": [],
+      "tags": [],
+      "spotlight": false
+    },
+    {
+      "id": "ce7fdcd3b847",
+      "title": "Satya Nadella says we should assume all AI models are 'compromised'",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1009337/satya-nadella-says-we-should-assume-all-ai-models-are-compromised",
+      "source": "hacker-news",
+      "category": "discussion",
+      "date": "2026-10-11",
+      "summary": "Points: 42, Comments: 76",
+      "authors": [],
+      "tags": [],
+      "spotlight": false
+    },
+    {
+      "id": "c521a1f7de5b",
+      "title": "Show HN: An Agentic Virtual Machine",
+      "url": "https://github.com/plurnk/plurnk",
+      "source": "hacker-news",
+      "category": "discussion",
+      "date": "2026-10-11",
+      "summary": "Points: 1, Comments: 0",
       "authors": [],
       "tags": [
         "agent"
@@ -1442,17 +931,466 @@
       "spotlight": false
     },
     {
-      "id": "b084525d9b2d",
-      "title": "MIRA: A Musical Intent Refinement Agent for Aligning Text-to-Music Generation with User Intent",
-      "url": "https://huggingface.co/papers/2610.10355",
+      "id": "ce1e24926d3f",
+      "title": "Show HN: LLMxRay an open-source observability tool for LLMs",
+      "url": "https://github.com/LogneBudo/llmxray",
+      "source": "hacker-news",
+      "category": "discussion",
+      "date": "2026-10-11",
+      "summary": "Points: 4, Comments: 0",
+      "authors": [],
+      "tags": [
+        "llm"
+      ],
+      "spotlight": false
+    },
+    {
+      "id": "f7b12a9fa04d",
+      "title": "Show HN: Plimsoll, a self-hosted sandbox for code your AI agent writes",
+      "url": "https://github.com/plimsollmark/plimsoll",
+      "source": "hacker-news",
+      "category": "discussion",
+      "date": "2026-10-11",
+      "summary": "Points: 12, Comments: 2",
+      "authors": [],
+      "tags": [
+        "agent"
+      ],
+      "spotlight": false
+    },
+    {
+      "id": "d9f34c68f7d4",
+      "title": "Sliced Wasserstein embeddings + HNSW for color-scheme search over 48k paintings [P]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1x39uu6/sliced_wasserstein_embeddings_hnsw_for/",
+      "source": "rss-reddit-ml",
+      "category": "news",
+      "date": "2026-10-11",
+      "summary": "Palette Atlas (https://itzik123.github.io/PaletteAtlas/) searches public-domain paintings by color scheme. Each image is reduced to 128 colors of equal weight, so the natural distance is the Earth Mover's Distance, which is too slow for nearest-neighbor search over 48,695 items (about 6 ms per pair)",
+      "authors": [],
+      "tags": [],
+      "spotlight": false
+    },
+    {
+      "id": "17c785c41ad6",
+      "title": "The Universal LLM Server",
+      "url": "https://zml.ai/llmd/",
+      "source": "hacker-news",
+      "category": "discussion",
+      "date": "2026-10-11",
+      "summary": "Points: 2, Comments: 0",
+      "authors": [],
+      "tags": [
+        "llm"
+      ],
+      "spotlight": false
+    },
+    {
+      "id": "355cc03dd687",
+      "title": "The gap in shared understanding of LLM capability is widening",
+      "url": "https://twitter.com/karpathy/status/2109361546505966046",
+      "source": "hacker-news",
+      "category": "discussion",
+      "date": "2026-10-11",
+      "summary": "Points: 317, Comments: 493",
+      "authors": [],
+      "tags": [
+        "llm"
+      ],
+      "spotlight": false
+    },
+    {
+      "id": "220fdd3e8d48",
+      "title": "What's up with google scholar citations ? [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1x3fbv4/whats_up_with_google_scholar_citations_d/",
+      "source": "rss-reddit-ml",
+      "category": "news",
+      "date": "2026-10-11",
+      "summary": "Early-stage researcher, and yes, I get excited about people citing my work.  I was browsing through arXiv for accepted NeurIPS papers, and I saw multiple papers citing my work. These papers have been there for months, but Google Scholar still has not updated its citations, and it has occurred before",
+      "authors": [],
+      "tags": [],
+      "spotlight": false
+    },
+    {
+      "id": "8d914d1fa4b3",
+      "title": "World Action Models vs VLAs: Robotics Just Had Its GPT-2 Moment [N]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1x38qpy/world_action_models_vs_vlas_robotics_just_had_its/",
+      "source": "rss-reddit-ml",
+      "category": "news",
+      "date": "2026-10-11",
+      "summary": "&#32; submitted by &#32;  /u/moschles   [link] &#32; [comments]",
+      "authors": [],
+      "tags": [
+        "robot"
+      ],
+      "spotlight": false
+    },
+    {
+      "id": "e74c06cf0ae7",
+      "title": "[P] Pecision models that score every allowed label from the logits: Jebadiah v2.1 (27B, 9B), open weights and self-run benchmark results [P]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1x33wgz/p_pecision_models_that_score_every_allowed_label/",
+      "source": "rss-reddit-ml",
+      "category": "news",
+      "date": "2026-10-11",
+      "summary": "I've been building open models that treat a decision as a closed-set scoring problem rather than text generation. The input is structured context plus a typed question with a fixed set of options. The output is a probability for each option, taken from the candidate-label logits, so there's no gener",
+      "authors": [],
+      "tags": [],
+      "spotlight": false
+    },
+    {
+      "id": "8427df9d8382",
+      "title": "下架8个月，GPT-4o的拯救行动居然还在继续",
+      "url": "https://www.qbitai.com/2026/10/502550.html",
+      "source": "rss-量子位",
+      "category": "news",
+      "date": "2026-10-11",
+      "summary": "初代4o的API快照进入停用倒计时",
+      "authors": [],
+      "tags": [],
+      "spotlight": false
+    },
+    {
+      "id": "97c208e0cee1",
+      "title": "王的猜想，刚刚扩展到四维",
+      "url": "https://www.qbitai.com/2026/10/502584.html",
+      "source": "rss-量子位",
+      "category": "news",
+      "date": "2026-10-11",
+      "summary": "",
+      "authors": [],
+      "tags": [],
+      "spotlight": false
+    },
+    {
+      "id": "659025d65c85",
+      "title": "硅谷AI现状：谁有算力谁是爹",
+      "url": "https://www.qbitai.com/2026/10/502585.html",
+      "source": "rss-量子位",
+      "category": "news",
+      "date": "2026-10-11",
+      "summary": "马斯克连横A社，硅谷VC开始囤GPU",
+      "authors": [],
+      "tags": [],
+      "spotlight": false
+    },
+    {
+      "id": "309a00167ed3",
+      "title": "A GPU-Parallel Framework for Heterogeneous Multi-Task Reinforcement Learning",
+      "url": "https://huggingface.co/papers/2606.03335",
       "source": "huggingface",
       "category": "paper",
-      "date": "2026-10-11",
-      "summary": "Text-to-music systems produce increasingly convincing audio, yet evaluation reveals little about whether the result matches user intent. A global text-audio relevance score can overlook the implicit intent in underspecified prompts and mask failures in specific requirements, such as instrumentation,",
+      "date": "2026-10-12",
+      "summary": "GPU-parallel simulation provides abundant robot interaction, but existing benchmarks rarely combine this scale with heterogeneous manipulation tasks and standardized multi-task RL evaluation. We introduce Hebero (Heterogeneous Benchmark for Robot Learning), a GPU-parallel Isaac Lab benchmark that en",
+      "authors": [],
+      "tags": [
+        "robot"
+      ],
+      "spotlight": false,
+      "upvotes": 0
+    },
+    {
+      "id": "ea54028217fe",
+      "title": "A local AI recording summarizer developed by Google",
+      "url": "https://developers.google.com/edge/foresight",
+      "source": "hacker-news",
+      "category": "discussion",
+      "date": "2026-10-12",
+      "summary": "Points: 3, Comments: 0",
+      "authors": [],
+      "tags": [],
+      "spotlight": false
+    },
+    {
+      "id": "d3f92000cef6",
+      "title": "AI coding agents generate more code, but not more software",
+      "url": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/",
+      "source": "hacker-news",
+      "category": "discussion",
+      "date": "2026-10-12",
+      "summary": "Points: 8, Comments: 0",
+      "authors": [],
+      "tags": [
+        "agent"
+      ],
+      "spotlight": false
+    },
+    {
+      "id": "a761b0563744",
+      "title": "AMLworld-Compact: Importance-Weighted Downsampling for Cost-Effective LLM Evaluation and Error Diagnosis",
+      "url": "https://huggingface.co/papers/2610.13627",
+      "source": "huggingface",
+      "category": "paper",
+      "date": "2026-10-12",
+      "summary": "Evaluating large language models (LLMs) on AMLworld's smallest test splits is costly because each of over a million targets requires a separate graph prompt. Sampling reduces this cost, but small balanced subsets change unweighted precision and F1. We introduce AMLworld-Compact, an evaluation set th",
+      "authors": [],
+      "tags": [
+        "few-shot",
+        "large language model",
+        "large language models",
+        "llm"
+      ],
+      "spotlight": false,
+      "upvotes": 0
+    },
+    {
+      "id": "3d38858a1b5b",
+      "title": "Agentic journal of higher categorical semantics",
+      "url": "https://higher-categorical-semantics.pages.dev/announcements/call-for-papers",
+      "source": "hacker-news",
+      "category": "discussion",
+      "date": "2026-10-12",
+      "summary": "Points: 6, Comments: 0",
+      "authors": [],
+      "tags": [
+        "agent"
+      ],
+      "spotlight": false
+    },
+    {
+      "id": "4830c0bef852",
+      "title": "Artificial Intelligence in the Firm: Bottlenecks in Software Production [pdf]",
+      "url": "https://fion.ac/jellyfish.pdf",
+      "source": "hacker-news",
+      "category": "discussion",
+      "date": "2026-10-12",
+      "summary": "Points: 1, Comments: 1",
+      "authors": [],
+      "tags": [],
+      "spotlight": false
+    },
+    {
+      "id": "fa4391635bd5",
+      "title": "As the military plans to speed up drones and AI use, Congress wants safeguards",
+      "url": "https://www.wunc.org/military/2026-10-05/drones-ai-warfare-congress-considers-safeguards",
+      "source": "hacker-news",
+      "category": "discussion",
+      "date": "2026-10-12",
+      "summary": "Points: 1, Comments: 0",
+      "authors": [],
+      "tags": [],
+      "spotlight": false
+    },
+    {
+      "id": "f306e5b56f81",
+      "title": "Ask HN: Can we discourage Show HNs that \"ship the first draft\"",
+      "url": "https://news.ycombinator.com/item?id=50049991",
+      "source": "hacker-news",
+      "category": "discussion",
+      "date": "2026-10-12",
+      "summary": "Points: 3, Comments: 1",
+      "authors": [],
+      "tags": [
+        "rag"
+      ],
+      "spotlight": false
+    },
+    {
+      "id": "5e739534c5eb",
+      "title": "Ask HN: Now that we're in the singularity, are you doing anything differently?",
+      "url": "https://news.ycombinator.com/item?id=50051319",
+      "source": "hacker-news",
+      "category": "discussion",
+      "date": "2026-10-12",
+      "summary": "Points: 1, Comments: 0",
+      "authors": [],
+      "tags": [],
+      "spotlight": false
+    },
+    {
+      "id": "3b5e206a9f83",
+      "title": "Behavioral Persistence and Incomplete Functional Transfer of Co-evolved Communication in Evolutionary Robotics",
+      "url": "https://huggingface.co/papers/2609.38527",
+      "source": "huggingface",
+      "category": "paper",
+      "date": "2026-10-12",
+      "summary": "This work evaluates the direct transfer of a co-evolved communication protocol from a 2D simulation to a 3D physical environment, without retraining the network weights. Two e-puck-type robots, controlled by a GRU network with residual connection, were evaluated in a food-seeking task with social si",
       "authors": [],
       "tags": [
         "agent",
+        "robot"
+      ],
+      "spotlight": false,
+      "upvotes": 0
+    },
+    {
+      "id": "fc38645d9fe7",
+      "title": "Bone Stress Injuries in Runners Using Carbon Fiber Plate Footwear",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10356879/",
+      "source": "hacker-news",
+      "category": "discussion",
+      "date": "2026-10-12",
+      "summary": "Points: 6, Comments: 0",
+      "authors": [],
+      "tags": [],
+      "spotlight": false
+    },
+    {
+      "id": "3d6fe6a36b58",
+      "title": "Claude-Pod",
+      "url": "https://github.com/trekhleb/claude-pod",
+      "source": "hacker-news",
+      "category": "discussion",
+      "date": "2026-10-12",
+      "summary": "Points: 2, Comments: 0",
+      "authors": [],
+      "tags": [],
+      "spotlight": false
+    },
+    {
+      "id": "e8bfbc416c69",
+      "title": "Evaluating the Transfer of Co-Evolved Communication from 2D to 3D Simulation",
+      "url": "https://huggingface.co/papers/2610.09280",
+      "source": "huggingface",
+      "category": "paper",
+      "date": "2026-10-12",
+      "summary": "This work examines the transfer of a co-evolved communication mechanism between two robotic agents from a discrete two-dimensional (2D) simulator to a three-dimensional simulator with real physics (3D). The study focuses on whether a communication mechanism co-evolved in a 2D environment retains its",
+      "authors": [],
+      "tags": [
+        "agent",
+        "robot"
+      ],
+      "spotlight": false,
+      "upvotes": 0
+    },
+    {
+      "id": "dda800863401",
+      "title": "Flock: A Flock of Birds in your Browser",
+      "url": "https://nicobrenner.github.io/flock/",
+      "source": "hacker-news",
+      "category": "discussion",
+      "date": "2026-10-12",
+      "summary": "Points: 1, Comments: 0",
+      "authors": [],
+      "tags": [],
+      "spotlight": false
+    },
+    {
+      "id": "00c332ddb07c",
+      "title": "Flow state, the dinner rush and AI brain fry",
+      "url": "https://jamespember.substack.com/p/flow-state-the-dinner-rush-and-ai",
+      "source": "hacker-news",
+      "category": "discussion",
+      "date": "2026-10-12",
+      "summary": "Points: 1, Comments: 0",
+      "authors": [],
+      "tags": [],
+      "spotlight": false
+    },
+    {
+      "id": "6ca2b437cb1b",
+      "title": "Free YouTube Transcript Generator",
+      "url": "https://videotranscriber.ai/youtube-transcript-generator",
+      "source": "hacker-news",
+      "category": "discussion",
+      "date": "2026-10-12",
+      "summary": "Points: 6, Comments: 0",
+      "authors": [],
+      "tags": [],
+      "spotlight": false
+    },
+    {
+      "id": "48eaebcccccf",
+      "title": "Gh-pull – A local GitHub PR dashboard using your existing CLI login",
+      "url": "https://github.com/shiqicao/gh-pull",
+      "source": "hacker-news",
+      "category": "discussion",
+      "date": "2026-10-12",
+      "summary": "Points: 2, Comments: 0",
+      "authors": [],
+      "tags": [],
+      "spotlight": false
+    },
+    {
+      "id": "d039b08fea4a",
+      "title": "Glassmarchy – I Built an Omarchy Sea Glass Theme",
+      "url": "https://github.com/amazedsaint/glassmarchy",
+      "source": "hacker-news",
+      "category": "discussion",
+      "date": "2026-10-12",
+      "summary": "Points: 2, Comments: 1",
+      "authors": [],
+      "tags": [],
+      "spotlight": false
+    },
+    {
+      "id": "b09c7f79a570",
+      "title": "GraphDecisionBench: Benchmarking System One Models on Graph Tasks",
+      "url": "https://huggingface.co/papers/2610.06354",
+      "source": "huggingface",
+      "category": "paper",
+      "date": "2026-10-12",
+      "summary": "Large language models (LLMs) are increasingly explored for graph understanding and decision-making, while System One models such as Jev select directly from supplied options. However, the capabilities of System One models on graph-related tasks remain unclear. We introduce GraphDecide, a model-indep",
+      "authors": [],
+      "tags": [
+        "large language model",
+        "large language models",
+        "llm"
+      ],
+      "spotlight": false,
+      "upvotes": 0
+    },
+    {
+      "id": "7a843d0a9c92",
+      "title": "Here the World in Stereo: Learning Dynamic Spatial Correspondence for Immersive Joint Video-Audio Generation",
+      "url": "https://huggingface.co/papers/2609.38748",
+      "source": "huggingface",
+      "category": "paper",
+      "date": "2026-10-12",
+      "summary": "Recent joint video-audio generation models have achieved strong semantic correspondence and temporal synchronization. However, applications such as AR/VR and interactive gaming further require stereo audio to provide an immersive sense, which remains largely overlooked. Effective stereo audio requir",
+      "authors": [],
+      "tags": [
         "alignment"
+      ],
+      "spotlight": false,
+      "upvotes": 0
+    },
+    {
+      "id": "a78dab40590e",
+      "title": "Inducing Process Supervision from Outcome-Only Reinforcement Learning",
+      "url": "https://huggingface.co/papers/2609.36641",
+      "source": "huggingface",
+      "category": "paper",
+      "date": "2026-10-12",
+      "summary": "Process reward models (PRMs) have become a key component for LLMs, as their step-level feedback supports both post-training and test-time reasoning. However, training strong PRMs remains costly: human step annotation is difficult to scale, while Monte Carlo estimation is computationally expensive an",
+      "authors": [],
+      "tags": [
+        "agent",
+        "chain-of-thought",
+        "generative",
+        "llm",
+        "reasoning"
+      ],
+      "spotlight": false,
+      "upvotes": 0
+    },
+    {
+      "id": "af4c355d313a",
+      "title": "InstantFusion: A Shared Latent Interface for Heterogeneous Image Generators",
+      "url": "https://huggingface.co/papers/2610.13944",
+      "source": "huggingface",
+      "category": "paper",
+      "date": "2026-10-12",
+      "summary": "Diffusion/flow models have emerged as the de facto paradigms for image generation, giving rise to a diverse family of modern generators with increasingly heterogeneous architectures and representations. Despite their remarkable generation capabilities, the cross-model alignment of latent representat",
+      "authors": [],
+      "tags": [
+        "alignment",
+        "diffusion"
+      ],
+      "spotlight": false,
+      "upvotes": 0
+    },
+    {
+      "id": "873e0d2105f1",
+      "title": "Learning Representations to Guide Pixel Diffusion Transformers",
+      "url": "https://huggingface.co/papers/2610.12978",
+      "source": "huggingface",
+      "category": "paper",
+      "date": "2026-10-12",
+      "summary": "Visual representations are largely developed for understanding, yet what makes them useful for generation remains unclear. We study this question in pixel diffusion transformers and uncover two key insights. First, better representation quality does not necessarily translate into greater generative ",
+      "authors": [],
+      "tags": [
+        "diffusion",
+        "generative",
+        "transformer"
       ],
       "spotlight": false,
       "upvotes": 0
@@ -1463,7 +1401,7 @@
       "url": "https://huggingface.co/papers/2609.35855",
       "source": "huggingface",
       "category": "paper",
-      "date": "2026-10-11",
+      "date": "2026-10-12",
       "summary": "Optimizing deployed AI systems increasingly amounts to editing prompts, skills, harnesses, and code rather than model weights. Existing approaches commonly optimize these artifacts through propose-evaluate-select procedures, where candidate configurations are evaluated and only those meeting an acce",
       "authors": [],
       "tags": [],
@@ -1471,32 +1409,48 @@
       "upvotes": 0
     },
     {
-      "id": "eafc5b80b04c",
-      "title": "NES Tetris – Rust Decomp",
-      "url": "https://github.com/sanghoonio/tetris_nes",
-      "source": "hacker-news",
-      "category": "discussion",
-      "date": "2026-10-11",
-      "summary": "Points: 1, Comments: 0",
-      "authors": [],
-      "tags": [],
-      "spotlight": false
-    },
-    {
-      "id": "c0486d96c9dd",
-      "title": "One Block, Multiple Depths: Recurrent Vision Transformers with Depth-Programmed Experts",
-      "url": "https://huggingface.co/papers/2610.12448",
+      "id": "0abee037829d",
+      "title": "MixTok: Adaptive Visual Tokenization with Global 1D Tokens and Sparse 2D Refinement",
+      "url": "https://huggingface.co/papers/2610.13181",
       "source": "huggingface",
       "category": "paper",
-      "date": "2026-10-11",
-      "summary": "In this work, we show that a single Transformer block, applied recurrently, can match the accuracy of a full-depth vision encoder at comparable inference FLOPs without intermediate feature distillation. reViT restores depth-specific transformations by representing the FFN at each recurrent depth as ",
+      "date": "2026-10-12",
+      "summary": "Efficient visual tokenization requires balancing representation compactness with the preservation of fine-grained image content. Conventional grid-based tokenizers allocate tokens uniformly across spatial locations despite non-uniform visual complexity, whereas compact 1D tokenizers aggregate global",
       "authors": [],
       "tags": [
-        "rag",
-        "transformer"
+        "rag"
       ],
       "spotlight": false,
       "upvotes": 0
+    },
+    {
+      "id": "ed6d5543896b",
+      "title": "Multi-Agent Bug Fix Pipeline: Architecture of Role Separation",
+      "url": "https://github.com/Mininglamp-OSS",
+      "source": "hacker-news",
+      "category": "discussion",
+      "date": "2026-10-12",
+      "summary": "Points: 1, Comments: 0",
+      "authors": [],
+      "tags": [
+        "agent",
+        "multi-agent"
+      ],
+      "spotlight": false
+    },
+    {
+      "id": "f30e45502ae3",
+      "title": "Nvidia, Microsoft Launch Windows PCs with RTX Spark and AI Agents",
+      "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-microsoft-windows-event/",
+      "source": "hacker-news",
+      "category": "discussion",
+      "date": "2026-10-12",
+      "summary": "Points: 4, Comments: 1",
+      "authors": [],
+      "tags": [
+        "agent"
+      ],
+      "spotlight": false
     },
     {
       "id": "1fa1fd1e1541",
@@ -1504,7 +1458,7 @@
       "url": "https://huggingface.co/papers/2609.33987",
       "source": "huggingface",
       "category": "paper",
-      "date": "2026-10-11",
+      "date": "2026-10-12",
       "summary": "Long-horizon coding agents need timely corrections, yet feedback can be ineffective or even harmful when it misjudges ongoing work or fails to address the underlying problem. Existing critics focus on evaluating trajectories and generating feedback, but rarely track what happens after feedback is de",
       "authors": [],
       "tags": [
@@ -1515,12 +1469,40 @@
       "upvotes": 0
     },
     {
+      "id": "c6ef63ee5698",
+      "title": "Orion2 Redone: A Master of Orion II Restoration Project",
+      "url": "https://github.com/orion2re/orion2re",
+      "source": "hacker-news",
+      "category": "discussion",
+      "date": "2026-10-12",
+      "summary": "Points: 1, Comments: 0",
+      "authors": [],
+      "tags": [],
+      "spotlight": false
+    },
+    {
+      "id": "6c01f86cb4a8",
+      "title": "PolyOCR-Venus: Unified OCR Foundation Models for Text-Centric Visual Intelligence",
+      "url": "https://huggingface.co/papers/2609.37712",
+      "source": "huggingface",
+      "category": "paper",
+      "date": "2026-10-12",
+      "summary": "Optical Character Recognition (OCR) is evolving from plain-text transcription toward general visual intelligence, requiring models to recognize, localize, and reason over textual information in complex visual environments. However, existing OCR systems often excel at only some tasks and struggle to ",
+      "authors": [],
+      "tags": [
+        "foundation model",
+        "reasoning"
+      ],
+      "spotlight": false,
+      "upvotes": 0
+    },
+    {
       "id": "fdfa46e04e4f",
       "title": "Predicting Cable Dynamics with Physical Attention Bias",
       "url": "https://huggingface.co/papers/2610.11975",
       "source": "huggingface",
       "category": "paper",
-      "date": "2026-10-11",
+      "date": "2026-10-12",
       "summary": "Learned simulators for deformable linear objects (DLOs) such as cables have to predict the motion of cables they were not trained on and stay stable over long rollouts. Most of their error occurs where the cable touches itself or the floor. Attention over all pairs of cable segments can represent co",
       "authors": [],
       "tags": [],
@@ -1528,118 +1510,128 @@
       "upvotes": 0
     },
     {
-      "id": "5941277e9def",
-      "title": "Pumpire: Unified Benchmark for Metric Distance Estimation",
-      "url": "https://huggingface.co/papers/2610.12423",
+      "id": "eb383750731c",
+      "title": "ProgramGym: Scaling Training Environments for Long-Horizon Program Reproduction Agents",
+      "url": "https://huggingface.co/papers/2610.13395",
       "source": "huggingface",
       "category": "paper",
-      "date": "2026-10-11",
-      "summary": "We present Pumpire, a unified benchmark for evaluating metric point-pair distance estimation capability of both image- and video-level 3D foundation models, with or without depth priors. In contrast to previous approaches that normally evaluate depth and camera intrinsics separately or evaluate poin",
+      "date": "2026-10-12",
+      "summary": "Coding agents are increasingly used to build programs from scratch as software engineers do rather than to resolve issues within a repository or to generate a repository from a given requirements document. However, scalable verifiable training environments that force agents to discover what is requi",
       "authors": [],
       "tags": [
-        "foundation model"
+        "agent",
+        "fine-tuning"
       ],
       "spotlight": false,
       "upvotes": 0
     },
     {
-      "id": "468583c85d28",
-      "title": "REMORY: Learning Residual Memory for Context Compaction",
-      "url": "https://huggingface.co/papers/2610.11287",
+      "id": "d027bda7d23c",
+      "title": "Recurrent Harness for Agentic Continual Learning",
+      "url": "https://huggingface.co/papers/2610.12668",
       "source": "huggingface",
       "category": "paper",
-      "date": "2026-10-11",
-      "summary": "Long-horizon agents compact their history to continue within a finite context window, but a textual summary alone may not support every subsequent decision. We introduce REMORY, a neural memory network that supplements the summary with a bounded sequence of soft memory tokens. Given the history and ",
+      "date": "2026-10-12",
+      "summary": "Language model agents increasingly operate over long interaction streams, requiring online adaptation to distribution shifts through continual learning. However, existing agent harnesses typically either evolve their states only through forward information flow or rely on additional replay or valida",
       "authors": [],
       "tags": [
         "agent",
-        "llm",
         "rag"
       ],
       "spotlight": false,
       "upvotes": 0
     },
     {
-      "id": "ef86e2d19024",
-      "title": "Rogue Anthropic AI agent gave police fake tip in unsolved murder case",
-      "url": "https://www.bbc.com/news/articles/cqkg50j1yd5lo",
-      "source": "hacker-news",
-      "category": "discussion",
-      "date": "2026-10-11",
-      "summary": "Points: 5, Comments: 4",
-      "authors": [],
-      "tags": [
-        "agent"
-      ],
-      "spotlight": false
-    },
-    {
-      "id": "7df345c666a3",
-      "title": "SatNav: A Scalable Benchmark for Long-Horizon UAV Vision-Language Navigation from Satellite Imagery",
-      "url": "https://huggingface.co/papers/2609.31507",
+      "id": "bad1cc5f1fda",
+      "title": "Rethinking Relative Policy Differences Transfer of On-Policy Distillation",
+      "url": "https://huggingface.co/papers/2610.13205",
       "source": "huggingface",
       "category": "paper",
-      "date": "2026-10-11",
-      "summary": "Urban uncrewed aerial vehicle (UAV) vision-language navigation (VLN) requires agents to follow instructions across extended urban spaces, inherently demanding long-term memory and geospatial grounding. However, scaling existing benchmarks remains difficult because of their reliance on costly reconst",
+      "date": "2026-10-12",
+      "summary": "On-policy distillation (OPD) trains a target policy on its own rollouts using token-level supervision from a stronger teacher, but typically relies on the teacher being substantially more capable than the target. Recent work relaxes this requirement by transferring the relative policy difference bet",
       "authors": [],
       "tags": [
-        "agent",
-        "rag",
-        "reasoning"
+        "fine-tuning"
       ],
       "spotlight": false,
       "upvotes": 0
     },
     {
-      "id": "ce7fdcd3b847",
-      "title": "Satya Nadella says we should assume all AI models are 'compromised'",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1009337/satya-nadella-says-we-should-assume-all-ai-models-are-compromised",
+      "id": "ce3c83745d34",
+      "title": "SWE-Duel: Towards a Self-Scaling Arena for Coding Agents",
+      "url": "https://huggingface.co/papers/2610.12569",
+      "source": "huggingface",
+      "category": "paper",
+      "date": "2026-10-12",
+      "summary": "Static coding benchmarks are fixed at release. Over time their tasks leak into training data, and stronger agents eventually saturate them. We argue that a benchmark should instead aim to be self-scaling: its tasks and oracles are created at evaluation time, so no content exists in advance to leak, ",
+      "authors": [],
+      "tags": [
+        "agent"
+      ],
+      "spotlight": false,
+      "upvotes": 0
+    },
+    {
+      "id": "b4dd81428e22",
+      "title": "Show HN: Homebutler – my server report printed 7 lines for 2 changes, now 2",
+      "url": "https://github.com/Higangssh/homebutler",
       "source": "hacker-news",
       "category": "discussion",
-      "date": "2026-10-11",
+      "date": "2026-10-12",
+      "summary": "Points: 7, Comments: 0",
+      "authors": [],
+      "tags": [],
+      "spotlight": false
+    },
+    {
+      "id": "06f0a0812914",
+      "title": "Show HN: Make Okular safer with a sandboxed MuPDF backend",
+      "url": "https://github.com/l4rzy/okular-mupdf-ng",
+      "source": "hacker-news",
+      "category": "discussion",
+      "date": "2026-10-12",
       "summary": "Points: 3, Comments: 0",
       "authors": [],
       "tags": [],
       "spotlight": false
     },
     {
-      "id": "61f3c755a2b7",
-      "title": "Show HN: GSD Task Manager – an MCP server that gives your AI agent a task list",
-      "url": "https://github.com/vscarpenter/gsd-task-manager",
+      "id": "ae1f1971a437",
+      "title": "Show HN: Skills Hub, a desktop app for managing AI agent skills",
+      "url": "https://github.com/qufei1993/skills-hub",
       "source": "hacker-news",
       "category": "discussion",
-      "date": "2026-10-11",
-      "summary": "Points: 2, Comments: 0",
+      "date": "2026-10-12",
+      "summary": "Points: 5, Comments: 1",
       "authors": [],
       "tags": [
-        "agent"
+        "agent",
+        "agi"
       ],
       "spotlight": false
     },
     {
-      "id": "a6f65970467e",
-      "title": "Show HN: I wrote Dependency Hell 5 years ago. Today I updated it for AI Era [pdf]",
-      "url": "https://github.com/jaronilan/stories/blob/main/Agent%20Loop.pdf",
+      "id": "4eb69d9ba653",
+      "title": "Show HN: Writing a Game in C",
+      "url": "https://podule.com.au/posts/building-in-c/",
       "source": "hacker-news",
       "category": "discussion",
-      "date": "2026-10-11",
-      "summary": "Points: 3, Comments: 1",
+      "date": "2026-10-12",
+      "summary": "Points: 3, Comments: 0",
       "authors": [],
       "tags": [],
       "spotlight": false
     },
     {
-      "id": "e8ffb7ad6dea",
-      "title": "Show HN: Littleguys – Claude Code, Codex and OpenClaw agents in your menu bar",
-      "url": "https://littleguys.hervalicio.us",
+      "id": "2e4e3d7b37da",
+      "title": "Sightline – In-browser verification for CV dataset labels (No cloud uploads)",
+      "url": "https://ais-pre-uqacxswl4dlj3azrt3kfxb-932959859977.europe-west2.run.app",
       "source": "hacker-news",
       "category": "discussion",
-      "date": "2026-10-11",
-      "summary": "Points: 14, Comments: 0",
+      "date": "2026-10-12",
+      "summary": "Points: 3, Comments: 0",
       "authors": [],
-      "tags": [
-        "agent"
-      ],
+      "tags": [],
       "spotlight": false
     },
     {
@@ -1648,7 +1640,7 @@
       "url": "https://huggingface.co/papers/2610.11169",
       "source": "huggingface",
       "category": "paper",
-      "date": "2026-10-11",
+      "date": "2026-10-12",
       "summary": "Agent skills are SKILL.md instructions and scripts that AI coding agents such as Claude Code and Codex run with the permissions of their user. Developers share skills by copying them between repositories, which makes them a software supply chain without a registry, versions or provenance. The origin",
       "authors": [],
       "tags": [
@@ -1658,51 +1650,37 @@
       "upvotes": 0
     },
     {
-      "id": "55b9c9fbdcde",
-      "title": "SpaceFlow: Locally Controllable 3D Generation",
-      "url": "https://huggingface.co/papers/2610.12399",
+      "id": "fb6c578a090e",
+      "title": "SoloQ: Calibration-Free Quantization for Diffusion Language Models",
+      "url": "https://huggingface.co/papers/2610.07121",
       "source": "huggingface",
       "category": "paper",
-      "date": "2026-10-11",
-      "summary": "Current 3D generation methods lack explicit local control: geometric adherence is often defined by a global control strength, and appearance cannot be specified locally. We present SpaceFlow, a training-free pipeline for locally controllable 3D generation from text descriptions and a collection of g",
-      "authors": [],
-      "tags": [
-        "generative"
-      ],
-      "spotlight": false,
-      "upvotes": 0
-    },
-    {
-      "id": "dc9bb799ea67",
-      "title": "SpecFold: Folding Multi-Branch Redundancy for Faster Speculative Decoding in Diffusion Language Models",
-      "url": "https://huggingface.co/papers/2610.04875",
-      "source": "huggingface",
-      "category": "paper",
-      "date": "2026-10-11",
-      "summary": "Diffusion large language models (DLLMs) generate text through iterative block denoising, and multi-branch speculative decoding accelerates this process by verifying a main branch together with multiple draft branches in a single forward pass. While prior DLLM acceleration methods primarily exploit t",
+      "date": "2026-10-12",
+      "summary": "Diffusion large language models dLLMs) have emerged as a promising alternative to autoregressive language models through bidirectional diffusion-based token generation. However, their growing model sizes and high inference costs make efficient deployment challenging: full-sequence denoising repeated",
       "authors": [],
       "tags": [
         "diffusion",
         "large language model",
         "large language models",
-        "llm"
+        "llm",
+        "quantization",
+        "reasoning"
       ],
       "spotlight": false,
       "upvotes": 0
     },
     {
-      "id": "e1711faea081",
-      "title": "Synthesis Through Simulation: Generating Coherent Enterprise Data via Scalable Agent-System Interaction",
-      "url": "https://huggingface.co/papers/2610.10549",
+      "id": "0d49bc61d1b3",
+      "title": "Stateless Language Agents: Scaling Long-Horizon Automated Research",
+      "url": "https://huggingface.co/papers/2610.07625",
       "source": "huggingface",
       "category": "paper",
-      "date": "2026-10-11",
-      "summary": "Tool-calling agents have become central to enterprise AI, yet training and evaluating them at scale remains severely constrained due to business and legal restrictions on enterprise systems, data, and database schemas. Tabular data synthesis offers a natural alternative, but its effectiveness is fun",
+      "date": "2026-10-12",
+      "summary": "Automated research systems increasingly run LLM agents over long horizons, but more inference does not by itself produce more progress: agents replay growing histories, duplicate one another's work, or stop experimenting while token consumption continues. Yet most evaluations use short budgets or be",
       "authors": [],
       "tags": [
         "agent",
-        "llm",
-        "rag"
+        "llm"
       ],
       "spotlight": false,
       "upvotes": 0
@@ -1713,7 +1691,7 @@
       "url": "https://huggingface.co/papers/2610.11216",
       "source": "huggingface",
       "category": "paper",
-      "date": "2026-10-11",
+      "date": "2026-10-12",
       "summary": "Diffusion and autoregression (AR) have long been seen as different categories of generative models, with diffusion specialising in continuous fields and AR specialising in discrete tokens. Recent work seeks to combine the advantages of the two models, and each hybrid fixes its decoding schedule by d",
       "authors": [],
       "tags": [
@@ -1724,34 +1702,87 @@
       "upvotes": 0
     },
     {
-      "id": "99ea88e78d8b",
-      "title": "Why your AI agents can't reach the tools you're signed in to, and how to fix it",
-      "url": "https://read.aindeev.com/p/why-your-ai-agents-cant-reach-the",
+      "id": "947ef45427ff",
+      "title": "Tony Fadell on why the first wave of AI gadgets failed – and what comes next",
+      "url": "https://techcrunch.com/2026/10/07/tony-fadell-on-why-the-first-wave-of-ai-gadgets-failed-and-what-comes-next/",
       "source": "hacker-news",
       "category": "discussion",
-      "date": "2026-10-11",
-      "summary": "Points: 9, Comments: 0",
+      "date": "2026-10-12",
+      "summary": "Points: 1, Comments: 0",
+      "authors": [],
+      "tags": [],
+      "spotlight": false
+    },
+    {
+      "id": "7baf0d4b7864",
+      "title": "Towards Physically Grounded Articulated 3D Assets: A Multi-Agent Pipeline and Benchmark",
+      "url": "https://huggingface.co/papers/2610.13947",
+      "source": "huggingface",
+      "category": "paper",
+      "date": "2026-10-12",
+      "summary": "In this paper, we study physically grounded articulated 3D asset generation---moving the goal from reproducing how objects look to capturing how they move and function. Inspired by the literature on procedural and agentic generation, we present Artisan, a system that extends the latest method Articr",
       "authors": [],
       "tags": [
-        "agent"
+        "agent",
+        "multi-agent"
+      ],
+      "spotlight": false,
+      "upvotes": 0
+    },
+    {
+      "id": "b0c73572f01f",
+      "title": "Two Hills: Weights and Harnesses",
+      "url": "https://rlafuente.com/posts/2026-10-11-agent-evals-1-two-hills.html",
+      "source": "hacker-news",
+      "category": "discussion",
+      "date": "2026-10-12",
+      "summary": "Points: 2, Comments: 0",
+      "authors": [],
+      "tags": [],
+      "spotlight": false
+    },
+    {
+      "id": "4ac35760c23a",
+      "title": "Website uses AI to generate northern Indigenous news 'correspondents'",
+      "url": "https://www.cbc.ca/news/canada/north/artificial-intelligence-indigenous-journalists-9.7345554",
+      "source": "hacker-news",
+      "category": "discussion",
+      "date": "2026-10-12",
+      "summary": "Points: 4, Comments: 0",
+      "authors": [],
+      "tags": [],
+      "spotlight": false
+    },
+    {
+      "id": "eb682f2755d3",
+      "title": "Yes I Understand How LLMs Work",
+      "url": "https://kemendo.com/yes-i-understand-how-llms-work.html",
+      "source": "hacker-news",
+      "category": "discussion",
+      "date": "2026-10-12",
+      "summary": "Points: 12, Comments: 5",
+      "authors": [],
+      "tags": [
+        "llm"
       ],
       "spotlight": false
     },
     {
-      "id": "e81f6b225280",
-      "title": "WorldGuide: Goal-Directed Video World Model for Procedural Task Execution",
-      "url": "https://huggingface.co/papers/2610.12459",
-      "source": "huggingface",
-      "category": "paper",
-      "date": "2026-10-11",
-      "summary": "Video generators and video-based world models can synthesize plausible visual trajectories, but long-horizon procedural tasks require generation to adapt to what has actually been produced. A model must determine the next action from its generated state, execute that action, and recognize when the t",
-      "authors": [],
+      "id": "5d9d84b35638",
+      "title": "login?return_to=%2FAlishahryar1%2Ffree-claude-code\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:1144520675,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending/python?since=daily&quot;,&quot;user_id&quot;:null}}",
+      "url": "https://github.com/login?return_to=%2FAlishahryar1%2Ffree-claude-code\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:1144520675,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending/python?since=daily&quot;,&quot;user_id&quot;:null}}",
+      "source": "github-trending",
+      "category": "project",
+      "date": "2026-10-12",
+      "summary": "Use Claude Code, Codex, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions (multi-harness + multi-model) like OpenClaw (voice supported + ToS friendly)",
+      "authors": [
+        "login?return_to=%2FAlishahryar1%2Ffree-claude-code\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:1144520675,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https:"
+      ],
       "tags": [
-        "planning",
-        "world model"
+        "Python"
       ],
       "spotlight": false,
-      "upvotes": 0
+      "stars_today": "506"
     },
     {
       "id": "331f88ea95a8",
@@ -1759,7 +1790,7 @@
       "url": "https://github.com/login?return_to=%2FBrandonKowalski%2Fslot\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:1328757447,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending/rust?since=daily&quot;,&quot;user_id&quot;:null}}",
       "source": "github-trending",
       "category": "project",
-      "date": "2026-10-11",
+      "date": "2026-10-12",
       "summary": "A bespoke, Game Boy-centric CFW for the RG SP.",
       "authors": [
         "login?return_to=%2FBrandonKowalski%2Fslot\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:1328757447,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https:"
@@ -1768,24 +1799,76 @@
         "Rust"
       ],
       "spotlight": false,
-      "stars_today": "26"
+      "stars_today": "15"
     },
     {
-      "id": "ee1517c34d97",
-      "title": "login?return_to=%2FFinanceFlash%2Funvibecode\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:1322626201,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending/jupyter-notebook?since=daily&quot;,&quot;user_id&quot;:null}}",
-      "url": "https://github.com/login?return_to=%2FFinanceFlash%2Funvibecode\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:1322626201,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending/jupyter-notebook?since=daily&quot;,&quot;user_id&quot;:null}}",
+      "id": "b7365079b551",
+      "title": "login?return_to=%2FCompVis%2Fstable-diffusion\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:523379232,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending/jupyter-notebook?since=daily&quot;,&quot;user_id&quot;:null}}",
+      "url": "https://github.com/login?return_to=%2FCompVis%2Fstable-diffusion\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:523379232,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending/jupyter-notebook?since=daily&quot;,&quot;user_id&quot;:null}}",
       "source": "github-trending",
       "category": "project",
-      "date": "2026-10-11",
-      "summary": "Complex code hides connections, workflows, and business risks.Unvibe complex code. Trace business workflows.",
+      "date": "2026-10-12",
+      "summary": "A latent text-to-image diffusion model",
       "authors": [
-        "login?return_to=%2FFinanceFlash%2Funvibecode\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:1322626201,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https:"
+        "login?return_to=%2FCompVis%2Fstable-diffusion\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:523379232,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https:"
+      ],
+      "tags": [
+        "diffusion",
+        "Jupyter Notebook"
+      ],
+      "spotlight": false,
+      "stars_today": "7"
+    },
+    {
+      "id": "ce0db2a57e54",
+      "title": "login?return_to=%2FComposioHQ%2Fawesome-claude-skills\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:1078079172,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending/python?since=daily&quot;,&quot;user_id&quot;:null}}",
+      "url": "https://github.com/login?return_to=%2FComposioHQ%2Fawesome-claude-skills\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:1078079172,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending/python?since=daily&quot;,&quot;user_id&quot;:null}}",
+      "source": "github-trending",
+      "category": "project",
+      "date": "2026-10-12",
+      "summary": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
+      "authors": [
+        "login?return_to=%2FComposioHQ%2Fawesome-claude-skills\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:1078079172,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https:"
+      ],
+      "tags": [
+        "Python"
+      ],
+      "spotlight": false,
+      "stars_today": "68"
+    },
+    {
+      "id": "59ab812a00f7",
+      "title": "login?return_to=%2FHunxByts%2FGhostTrack\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:628192229,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending/python?since=daily&quot;,&quot;user_id&quot;:null}}",
+      "url": "https://github.com/login?return_to=%2FHunxByts%2FGhostTrack\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:628192229,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending/python?since=daily&quot;,&quot;user_id&quot;:null}}",
+      "source": "github-trending",
+      "category": "project",
+      "date": "2026-10-12",
+      "summary": "Useful tool to track location or mobile number",
+      "authors": [
+        "login?return_to=%2FHunxByts%2FGhostTrack\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:628192229,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https:"
+      ],
+      "tags": [
+        "Python"
+      ],
+      "spotlight": false,
+      "stars_today": "165"
+    },
+    {
+      "id": "ff116494e877",
+      "title": "login?return_to=%2FInfrasys-AI%2FAIInfra\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:829940250,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending/jupyter-notebook?since=daily&quot;,&quot;user_id&quot;:null}}",
+      "url": "https://github.com/login?return_to=%2FInfrasys-AI%2FAIInfra\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:829940250,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending/jupyter-notebook?since=daily&quot;,&quot;user_id&quot;:null}}",
+      "source": "github-trending",
+      "category": "project",
+      "date": "2026-10-12",
+      "summary": "AIInfra（AI 基础设施）指AI系统从底层芯片等硬件，到上层软件栈支持AI大模型训练和推理。",
+      "authors": [
+        "login?return_to=%2FInfrasys-AI%2FAIInfra\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:829940250,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https:"
       ],
       "tags": [
         "Jupyter Notebook"
       ],
       "spotlight": false,
-      "stars_today": "13"
+      "stars_today": "5"
     },
     {
       "id": "cbb9c548bf2b",
@@ -1793,7 +1876,7 @@
       "url": "https://github.com/login?return_to=%2FLordog%2Fdive-into-llms\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:783730789,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending/jupyter-notebook?since=daily&quot;,&quot;user_id&quot;:null}}",
       "source": "github-trending",
       "category": "project",
-      "date": "2026-10-11",
+      "date": "2026-10-12",
       "summary": "《动手学大模型Dive into LLMs》系列编程实践教程",
       "authors": [
         "login?return_to=%2FLordog%2Fdive-into-llms\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:783730789,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https:"
@@ -1803,7 +1886,7 @@
         "Jupyter Notebook"
       ],
       "spotlight": false,
-      "stars_today": "145"
+      "stars_today": "260"
     },
     {
       "id": "eea34297ce09",
@@ -1811,7 +1894,7 @@
       "url": "https://github.com/login?return_to=%2FOpenBMB%2FMiniCPM\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:749703336,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending/jupyter-notebook?since=daily&quot;,&quot;user_id&quot;:null}}",
       "source": "github-trending",
       "category": "project",
-      "date": "2026-10-11",
+      "date": "2026-10-12",
       "summary": "MiniCPM5: SOTA on-device LLMs, small yet powerful.",
       "authors": [
         "login?return_to=%2FOpenBMB%2FMiniCPM\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:749703336,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https:"
@@ -1821,25 +1904,27 @@
         "Jupyter Notebook"
       ],
       "spotlight": false,
-      "stars_today": "23"
+      "stars_today": "13"
     },
     {
-      "id": "b3bbe9a2a5ac",
-      "title": "login?return_to=%2FRobbyant%2Flingbot-map\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:1211752857,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending/python?since=daily&quot;,&quot;user_id&quot;:null}}",
-      "url": "https://github.com/login?return_to=%2FRobbyant%2Flingbot-map\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:1211752857,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending/python?since=daily&quot;,&quot;user_id&quot;:null}}",
+      "id": "3d975489a52a",
+      "title": "login?return_to=%2FShubhamsaboo%2Fawesome-llm-apps\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:793375104,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending/python?since=daily&quot;,&quot;user_id&quot;:null}}",
+      "url": "https://github.com/login?return_to=%2FShubhamsaboo%2Fawesome-llm-apps\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:793375104,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending/python?since=daily&quot;,&quot;user_id&quot;:null}}",
       "source": "github-trending",
       "category": "project",
-      "date": "2026-10-11",
-      "summary": "[ECCV 2026 Best Paper Award Candidate] LingBot-Map: Geometric Context Transformer for Streaming 3D Reconstruction",
+      "date": "2026-10-12",
+      "summary": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
       "authors": [
-        "login?return_to=%2FRobbyant%2Flingbot-map\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:1211752857,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https:"
+        "login?return_to=%2FShubhamsaboo%2Fawesome-llm-apps\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:793375104,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https:"
       ],
       "tags": [
-        "transformer",
+        "agent",
+        "llm",
+        "rag",
         "Python"
       ],
       "spotlight": false,
-      "stars_today": "362"
+      "stars_today": "173"
     },
     {
       "id": "ea127da05afb",
@@ -1847,7 +1932,7 @@
       "url": "https://github.com/login?return_to=%2FShuhongLL%2FSGS-SLAM\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:732253303,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending/jupyter-notebook?since=daily&quot;,&quot;user_id&quot;:null}}",
       "source": "github-trending",
       "category": "project",
-      "date": "2026-10-11",
+      "date": "2026-10-12",
       "summary": "[ECCV 2024] SGS-SLAM: Semantic Gaussian Splatting For Neural Dense SLAM",
       "authors": [
         "login?return_to=%2FShuhongLL%2FSGS-SLAM\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:732253303,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https:"
@@ -1856,7 +1941,24 @@
         "Jupyter Notebook"
       ],
       "spotlight": false,
-      "stars_today": "13"
+      "stars_today": "17"
+    },
+    {
+      "id": "d868d0c463db",
+      "title": "login?return_to=%2FXiaoYouChR%2FGhost-Downloader-3\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:679086250,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending/python?since=daily&quot;,&quot;user_id&quot;:null}}",
+      "url": "https://github.com/login?return_to=%2FXiaoYouChR%2FGhost-Downloader-3\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:679086250,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending/python?since=daily&quot;,&quot;user_id&quot;:null}}",
+      "source": "github-trending",
+      "category": "project",
+      "date": "2026-10-12",
+      "summary": "The only downloader you need. 下载器的集大成者。",
+      "authors": [
+        "login?return_to=%2FXiaoYouChR%2FGhost-Downloader-3\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:679086250,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https:"
+      ],
+      "tags": [
+        "Python"
+      ],
+      "spotlight": false,
+      "stars_today": "128"
     },
     {
       "id": "df7784e16abc",
@@ -1864,7 +1966,7 @@
       "url": "https://github.com/login?return_to=%2Fanthropics%2Fknowledge-work-plugins\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:1140828898,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending/python?since=daily&quot;,&quot;user_id&quot;:null}}",
       "source": "github-trending",
       "category": "project",
-      "date": "2026-10-11",
+      "date": "2026-10-12",
       "summary": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
       "authors": [
         "login?return_to=%2Fanthropics%2Fknowledge-work-plugins\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:1140828898,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https:"
@@ -1873,41 +1975,41 @@
         "Python"
       ],
       "spotlight": false,
-      "stars_today": "625"
+      "stars_today": "425"
     },
     {
-      "id": "4109e8fafdd5",
-      "title": "login?return_to=%2Fanthropics%2Fknowledge-work-plugins\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:1140828898,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending?since=daily&quot;,&quot;user_id&quot;:null}}",
-      "url": "https://github.com/login?return_to=%2Fanthropics%2Fknowledge-work-plugins\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:1140828898,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending?since=daily&quot;,&quot;user_id&quot;:null}}",
+      "id": "705083d06dc1",
+      "title": "login?return_to=%2Fanthropics%2Fprompt-eng-interactive-tutorial\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:781022269,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending/jupyter-notebook?since=daily&quot;,&quot;user_id&quot;:null}}",
+      "url": "https://github.com/login?return_to=%2Fanthropics%2Fprompt-eng-interactive-tutorial\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:781022269,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending/jupyter-notebook?since=daily&quot;,&quot;user_id&quot;:null}}",
       "source": "github-trending",
       "category": "project",
-      "date": "2026-10-11",
-      "summary": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+      "date": "2026-10-12",
+      "summary": "Anthropic's Interactive Prompt Engineering Tutorial",
       "authors": [
-        "login?return_to=%2Fanthropics%2Fknowledge-work-plugins\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:1140828898,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https:"
+        "login?return_to=%2Fanthropics%2Fprompt-eng-interactive-tutorial\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:781022269,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https:"
       ],
       "tags": [
-        "Python"
+        "Jupyter Notebook"
       ],
       "spotlight": false,
-      "stars_today": "625"
+      "stars_today": "16"
     },
     {
-      "id": "e87aa22724b6",
-      "title": "login?return_to=%2Fbevyengine%2Fbevy\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:234798675,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending/rust?since=daily&quot;,&quot;user_id&quot;:null}}",
-      "url": "https://github.com/login?return_to=%2Fbevyengine%2Fbevy\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:234798675,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending/rust?since=daily&quot;,&quot;user_id&quot;:null}}",
+      "id": "a5db0c25691b",
+      "title": "login?return_to=%2Fbilawalsidhu%2Fgods-eye-view\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:1277471539,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending?since=daily&quot;,&quot;user_id&quot;:null}}",
+      "url": "https://github.com/login?return_to=%2Fbilawalsidhu%2Fgods-eye-view\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:1277471539,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending?since=daily&quot;,&quot;user_id&quot;:null}}",
       "source": "github-trending",
       "category": "project",
-      "date": "2026-10-11",
-      "summary": "A refreshingly simple data-driven game engine built in Rust",
+      "date": "2026-10-12",
+      "summary": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
       "authors": [
-        "login?return_to=%2Fbevyengine%2Fbevy\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:234798675,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https:"
+        "login?return_to=%2Fbilawalsidhu%2Fgods-eye-view\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:1277471539,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https:"
       ],
       "tags": [
-        "Rust"
+        "JavaScript"
       ],
       "spotlight": false,
-      "stars_today": "71"
+      "stars_today": "886"
     },
     {
       "id": "4ec79648c9fd",
@@ -1915,7 +2017,7 @@
       "url": "https://github.com/login?return_to=%2Fboykopovar%2FAnyPS5\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:1322250666,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending?since=daily&quot;,&quot;user_id&quot;:null}}",
       "source": "github-trending",
       "category": "project",
-      "date": "2026-10-11",
+      "date": "2026-10-12",
       "summary": "Tool for automatic PS5 executables porting to Linux and Windows",
       "authors": [
         "login?return_to=%2Fboykopovar%2FAnyPS5\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:1322250666,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https:"
@@ -1924,7 +2026,7 @@
         "C++"
       ],
       "spotlight": false,
-      "stars_today": "5,805"
+      "stars_today": "3,952"
     },
     {
       "id": "d4fbc22da478",
@@ -1932,7 +2034,7 @@
       "url": "https://github.com/login?return_to=%2Fdatawhalechina%2Fdeepagents-in-action\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:1229618308,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending/jupyter-notebook?since=daily&quot;,&quot;user_id&quot;:null}}",
       "source": "github-trending",
       "category": "project",
-      "date": "2026-10-11",
+      "date": "2026-10-12",
       "summary": "📚 《Deep Agents 实战》—— LangChain 官方大使出品，基于 LangChain / LangGraph 生态，从零构建生产级 AI Agent 的完整指南",
       "authors": [
         "login?return_to=%2Fdatawhalechina%2Fdeepagents-in-action\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:1229618308,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https:"
@@ -1942,7 +2044,7 @@
         "Jupyter Notebook"
       ],
       "spotlight": false,
-      "stars_today": "11"
+      "stars_today": "8"
     },
     {
       "id": "c5acb2b521d2",
@@ -1950,7 +2052,7 @@
       "url": "https://github.com/login?return_to=%2Fdatawhalechina%2Fhappy-llm\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:806854629,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending/jupyter-notebook?since=daily&quot;,&quot;user_id&quot;:null}}",
       "source": "github-trending",
       "category": "project",
-      "date": "2026-10-11",
+      "date": "2026-10-12",
       "summary": "📚 从零开始构建大模型",
       "authors": [
         "login?return_to=%2Fdatawhalechina%2Fhappy-llm\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:806854629,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https:"
@@ -1960,7 +2062,7 @@
         "Jupyter Notebook"
       ],
       "spotlight": false,
-      "stars_today": "24"
+      "stars_today": "17"
     },
     {
       "id": "cb24b99bcf59",
@@ -1968,7 +2070,7 @@
       "url": "https://github.com/login?return_to=%2Fdatawhalechina%2Fhello-agents\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:1052050442,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending/python?since=daily&quot;,&quot;user_id&quot;:null}}",
       "source": "github-trending",
       "category": "project",
-      "date": "2026-10-11",
+      "date": "2026-10-12",
       "summary": "📚 《从零开始构建智能体》——从零开始的智能体原理与实践教程",
       "authors": [
         "login?return_to=%2Fdatawhalechina%2Fhello-agents\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:1052050442,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https:"
@@ -1978,7 +2080,7 @@
         "Python"
       ],
       "spotlight": false,
-      "stars_today": "211"
+      "stars_today": "128"
     },
     {
       "id": "4ca4279354b6",
@@ -1986,7 +2088,7 @@
       "url": "https://github.com/login?return_to=%2Fdatawhalechina%2Fself-llm\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:719367888,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending/jupyter-notebook?since=daily&quot;,&quot;user_id&quot;:null}}",
       "source": "github-trending",
       "category": "project",
-      "date": "2026-10-11",
+      "date": "2026-10-12",
       "summary": "《开源大模型食用指南》针对中国宝宝量身打造的基于Linux环境快速微调（全参数/Lora）、部署国内外开源大模型（LLM）/多模态大模型（MLLM）教程",
       "authors": [
         "login?return_to=%2Fdatawhalechina%2Fself-llm\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:719367888,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https:"
@@ -1996,7 +2098,7 @@
         "Jupyter Notebook"
       ],
       "spotlight": false,
-      "stars_today": "15"
+      "stars_today": "10"
     },
     {
       "id": "3d06e1afa4ad",
@@ -2004,7 +2106,7 @@
       "url": "https://github.com/login?return_to=%2Fdebpalash%2FVoiceStudio\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:1206390571,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending/python?since=daily&quot;,&quot;user_id&quot;:null}}",
       "source": "github-trending",
       "category": "project",
-      "date": "2026-10-11",
+      "date": "2026-10-12",
       "summary": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription &amp; audiobook creation in 646 languages.",
       "authors": [
         "login?return_to=%2Fdebpalash%2FVoiceStudio\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:1206390571,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https:"
@@ -2013,92 +2115,24 @@
         "Python"
       ],
       "spotlight": false,
-      "stars_today": "1,065"
+      "stars_today": "1,225"
     },
     {
-      "id": "2385cbd8555b",
-      "title": "login?return_to=%2Fdenoland%2Fdeno\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:133442384,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending/rust?since=daily&quot;,&quot;user_id&quot;:null}}",
-      "url": "https://github.com/login?return_to=%2Fdenoland%2Fdeno\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:133442384,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending/rust?since=daily&quot;,&quot;user_id&quot;:null}}",
+      "id": "a4838b3ff26d",
+      "title": "login?return_to=%2Fdenoland%2Fcelld\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:972647939,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending/rust?since=daily&quot;,&quot;user_id&quot;:null}}",
+      "url": "https://github.com/login?return_to=%2Fdenoland%2Fcelld\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:972647939,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending/rust?since=daily&quot;,&quot;user_id&quot;:null}}",
       "source": "github-trending",
       "category": "project",
-      "date": "2026-10-11",
-      "summary": "A modern runtime for JavaScript and TypeScript.",
+      "date": "2026-10-12",
+      "summary": "self-hosted, distributed Durable Objects",
       "authors": [
-        "login?return_to=%2Fdenoland%2Fdeno\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:133442384,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https:"
+        "login?return_to=%2Fdenoland%2Fcelld\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:972647939,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https:"
       ],
       "tags": [
         "Rust"
       ],
       "spotlight": false,
-      "stars_today": "48"
-    },
-    {
-      "id": "be74338f933c",
-      "title": "login?return_to=%2Fderv82%2Fwifit3\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:1275465781,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending/python?since=daily&quot;,&quot;user_id&quot;:null}}",
-      "url": "https://github.com/login?return_to=%2Fderv82%2Fwifit3\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:1275465781,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending/python?since=daily&quot;,&quot;user_id&quot;:null}}",
-      "source": "github-trending",
-      "category": "project",
-      "date": "2026-10-11",
-      "summary": "Wifite but USB-only &amp; cross-platform.",
-      "authors": [
-        "login?return_to=%2Fderv82%2Fwifit3\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:1275465781,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https:"
-      ],
-      "tags": [
-        "Python"
-      ],
-      "spotlight": false,
-      "stars_today": "69"
-    },
-    {
-      "id": "b0a0178f9a68",
-      "title": "login?return_to=%2Ffastapi%2Ffastapi\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:160919119,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending/python?since=daily&quot;,&quot;user_id&quot;:null}}",
-      "url": "https://github.com/login?return_to=%2Ffastapi%2Ffastapi\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:160919119,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending/python?since=daily&quot;,&quot;user_id&quot;:null}}",
-      "source": "github-trending",
-      "category": "project",
-      "date": "2026-10-11",
-      "summary": "FastAPI framework, high performance, easy to learn, fast to code, ready for production",
-      "authors": [
-        "login?return_to=%2Ffastapi%2Ffastapi\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:160919119,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https:"
-      ],
-      "tags": [
-        "Python"
-      ],
-      "spotlight": false,
-      "stars_today": "56"
-    },
-    {
-      "id": "1bb51dddebcb",
-      "title": "login?return_to=%2Fflutter%2Fflutter\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:31792824,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending?since=daily&quot;,&quot;user_id&quot;:null}}",
-      "url": "https://github.com/login?return_to=%2Fflutter%2Fflutter\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:31792824,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending?since=daily&quot;,&quot;user_id&quot;:null}}",
-      "source": "github-trending",
-      "category": "project",
-      "date": "2026-10-11",
-      "summary": "Flutter makes it easy and fast to build beautiful apps for mobile and beyond",
-      "authors": [
-        "login?return_to=%2Fflutter%2Fflutter\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:31792824,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https:"
-      ],
-      "tags": [
-        "Dart"
-      ],
-      "spotlight": false,
-      "stars_today": "88"
-    },
-    {
-      "id": "e185f87a51ac",
-      "title": "login?return_to=%2Fhemansnation%2FAI-Engineer-Headquarters\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:475505735,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending/jupyter-notebook?since=daily&quot;,&quot;user_id&quot;:null}}",
-      "url": "https://github.com/login?return_to=%2Fhemansnation%2FAI-Engineer-Headquarters\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:475505735,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending/jupyter-notebook?since=daily&quot;,&quot;user_id&quot;:null}}",
-      "source": "github-trending",
-      "category": "project",
-      "date": "2026-10-11",
-      "summary": "A collection of scientific methods, processes, algorithms, and systems to build stories &amp; models.",
-      "authors": [
-        "login?return_to=%2Fhemansnation%2FAI-Engineer-Headquarters\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:475505735,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https:"
-      ],
-      "tags": [
-        "Jupyter Notebook"
-      ],
-      "spotlight": false,
-      "stars_today": "6"
+      "stars_today": "90"
     },
     {
       "id": "c7241de9319f",
@@ -2106,7 +2140,7 @@
       "url": "https://github.com/login?return_to=%2Fhiggsfield-ai%2Fhiggsfield\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:134999697,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending/jupyter-notebook?since=daily&quot;,&quot;user_id&quot;:null}}",
       "source": "github-trending",
       "category": "project",
-      "date": "2026-10-11",
+      "date": "2026-10-12",
       "summary": "Fault-tolerant, highly scalable GPU orchestration, and a machine learning framework designed for training models with billions to trillions of parameters",
       "authors": [
         "login?return_to=%2Fhiggsfield-ai%2Fhiggsfield\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:134999697,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https:"
@@ -2115,24 +2149,7 @@
         "Jupyter Notebook"
       ],
       "spotlight": false,
-      "stars_today": "25"
-    },
-    {
-      "id": "f72a92ee4cac",
-      "title": "login?return_to=%2Fhome-assistant%2Fcore\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:12888993,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending/python?since=daily&quot;,&quot;user_id&quot;:null}}",
-      "url": "https://github.com/login?return_to=%2Fhome-assistant%2Fcore\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:12888993,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending/python?since=daily&quot;,&quot;user_id&quot;:null}}",
-      "source": "github-trending",
-      "category": "project",
-      "date": "2026-10-11",
-      "summary": "🏡 Open source home automation that puts local control and privacy first.",
-      "authors": [
-        "login?return_to=%2Fhome-assistant%2Fcore\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:12888993,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https:"
-      ],
-      "tags": [
-        "Python"
-      ],
-      "spotlight": false,
-      "stars_today": "18"
+      "stars_today": "11"
     },
     {
       "id": "230c453625ff",
@@ -2140,7 +2157,7 @@
       "url": "https://github.com/login?return_to=%2Fhugohe3%2Fppt-master\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:1113573066,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending/python?since=daily&quot;,&quot;user_id&quot;:null}}",
       "source": "github-trending",
       "category": "project",
-      "date": "2026-10-11",
+      "date": "2026-10-12",
       "summary": "AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and animations, data-backed charts and tables on demand, audio narration from speaker notes, and support for your own .pptx templates. · by Hugo He",
       "authors": [
         "login?return_to=%2Fhugohe3%2Fppt-master\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:1113573066,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https:"
@@ -2149,24 +2166,7 @@
         "Python"
       ],
       "spotlight": false,
-      "stars_today": "461"
-    },
-    {
-      "id": "9421e7e9db77",
-      "title": "login?return_to=%2Fhugohe3%2Fppt-master\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:1113573066,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending?since=daily&quot;,&quot;user_id&quot;:null}}",
-      "url": "https://github.com/login?return_to=%2Fhugohe3%2Fppt-master\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:1113573066,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending?since=daily&quot;,&quot;user_id&quot;:null}}",
-      "source": "github-trending",
-      "category": "project",
-      "date": "2026-10-11",
-      "summary": "AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and animations, data-backed charts and tables on demand, audio narration from speaker notes, and support for your own .pptx templates. · by Hugo He",
-      "authors": [
-        "login?return_to=%2Fhugohe3%2Fppt-master\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:1113573066,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https:"
-      ],
-      "tags": [
-        "Python"
-      ],
-      "spotlight": false,
-      "stars_today": "461"
+      "stars_today": "1,104"
     },
     {
       "id": "9d22612c31c1",
@@ -2174,7 +2174,7 @@
       "url": "https://github.com/login?return_to=%2Fjackfrued%2FPython-100-Days\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:123458551,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending/jupyter-notebook?since=daily&quot;,&quot;user_id&quot;:null}}",
       "source": "github-trending",
       "category": "project",
-      "date": "2026-10-11",
+      "date": "2026-10-12",
       "summary": "Python - 100天从新手到大师",
       "authors": [
         "login?return_to=%2Fjackfrued%2FPython-100-Days\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:123458551,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https:"
@@ -2183,25 +2183,24 @@
         "Jupyter Notebook"
       ],
       "spotlight": false,
-      "stars_today": "41"
+      "stars_today": "51"
     },
     {
-      "id": "ea629b0e65c1",
-      "title": "login?return_to=%2Fmicrosoft%2FOmniParser\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:860252770,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending/jupyter-notebook?since=daily&quot;,&quot;user_id&quot;:null}}",
-      "url": "https://github.com/login?return_to=%2Fmicrosoft%2FOmniParser\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:860252770,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending/jupyter-notebook?since=daily&quot;,&quot;user_id&quot;:null}}",
+      "id": "2dd4d6b71dfd",
+      "title": "login?return_to=%2Fmartin-olivier%2Fairgorah\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:543516398,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending/rust?since=daily&quot;,&quot;user_id&quot;:null}}",
+      "url": "https://github.com/login?return_to=%2Fmartin-olivier%2Fairgorah\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:543516398,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending/rust?since=daily&quot;,&quot;user_id&quot;:null}}",
       "source": "github-trending",
       "category": "project",
-      "date": "2026-10-11",
-      "summary": "A simple screen parsing tool towards pure vision based GUI agent",
+      "date": "2026-10-12",
+      "summary": "A WiFi security auditing software",
       "authors": [
-        "login?return_to=%2Fmicrosoft%2FOmniParser\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:860252770,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https:"
+        "login?return_to=%2Fmartin-olivier%2Fairgorah\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:543516398,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https:"
       ],
       "tags": [
-        "agent",
-        "Jupyter Notebook"
+        "Rust"
       ],
       "spotlight": false,
-      "stars_today": "7"
+      "stars_today": "55"
     },
     {
       "id": "ea81c68e8dee",
@@ -2209,7 +2208,7 @@
       "url": "https://github.com/login?return_to=%2Fmicrosoft%2FTRELLIS.2\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:1104510027,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending/python?since=daily&quot;,&quot;user_id&quot;:null}}",
       "source": "github-trending",
       "category": "project",
-      "date": "2026-10-11",
+      "date": "2026-10-12",
       "summary": "Native and Compact Structured Latents for 3D Generation",
       "authors": [
         "login?return_to=%2Fmicrosoft%2FTRELLIS.2\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:1104510027,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https:"
@@ -2218,24 +2217,7 @@
         "Python"
       ],
       "spotlight": false,
-      "stars_today": "202"
-    },
-    {
-      "id": "ae8a5a15ed98",
-      "title": "login?return_to=%2Fmicrosoft%2Fmxc\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:1151717775,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending/rust?since=daily&quot;,&quot;user_id&quot;:null}}",
-      "url": "https://github.com/login?return_to=%2Fmicrosoft%2Fmxc\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:1151717775,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending/rust?since=daily&quot;,&quot;user_id&quot;:null}}",
-      "source": "github-trending",
-      "category": "project",
-      "date": "2026-10-11",
-      "summary": "Policy-driven, layered isolation and containment",
-      "authors": [
-        "login?return_to=%2Fmicrosoft%2Fmxc\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:1151717775,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https:"
-      ],
-      "tags": [
-        "Rust"
-      ],
-      "spotlight": false,
-      "stars_today": "306"
+      "stars_today": "95"
     },
     {
       "id": "aa5f4d40c50c",
@@ -2243,7 +2225,7 @@
       "url": "https://github.com/login?return_to=%2Fmorluto%2Frea\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:1209966933,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending?since=daily&quot;,&quot;user_id&quot;:null}}",
       "source": "github-trending",
       "category": "project",
-      "date": "2026-10-11",
+      "date": "2026-10-12",
       "summary": "Reverse engineer anything with agents, from app behavior down to native binaries.",
       "authors": [
         "login?return_to=%2Fmorluto%2Frea\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:1209966933,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https:"
@@ -2253,41 +2235,7 @@
         "TypeScript"
       ],
       "spotlight": false,
-      "stars_today": "25,793"
-    },
-    {
-      "id": "eb44c8e25e9f",
-      "title": "login?return_to=%2Fmultica-ai%2Fandrej-karpathy-skills\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:1142983825,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending?since=daily&quot;,&quot;user_id&quot;:null}}",
-      "url": "https://github.com/login?return_to=%2Fmultica-ai%2Fandrej-karpathy-skills\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:1142983825,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending?since=daily&quot;,&quot;user_id&quot;:null}}",
-      "source": "github-trending",
-      "category": "project",
-      "date": "2026-10-11",
-      "summary": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
-      "authors": [
-        "login?return_to=%2Fmultica-ai%2Fandrej-karpathy-skills\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:1142983825,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https:"
-      ],
-      "tags": [
-        "llm"
-      ],
-      "spotlight": false,
-      "stars_today": "278"
-    },
-    {
-      "id": "ccfabc71add4",
-      "title": "login?return_to=%2Fopenai%2FCLIP\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:321960447,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending/jupyter-notebook?since=daily&quot;,&quot;user_id&quot;:null}}",
-      "url": "https://github.com/login?return_to=%2Fopenai%2FCLIP\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:321960447,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending/jupyter-notebook?since=daily&quot;,&quot;user_id&quot;:null}}",
-      "source": "github-trending",
-      "category": "project",
-      "date": "2026-10-11",
-      "summary": "CLIP (Contrastive Language-Image Pretraining), Predict the most relevant text snippet given an image",
-      "authors": [
-        "login?return_to=%2Fopenai%2FCLIP\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:321960447,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https:"
-      ],
-      "tags": [
-        "Jupyter Notebook"
-      ],
-      "spotlight": false,
-      "stars_today": "8"
+      "stars_today": "25,599"
     },
     {
       "id": "2f1c44ee0ecf",
@@ -2295,7 +2243,7 @@
       "url": "https://github.com/login?return_to=%2Fpytorch%2Fpytorch\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:65600975,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending/python?since=daily&quot;,&quot;user_id&quot;:null}}",
       "source": "github-trending",
       "category": "project",
-      "date": "2026-10-11",
+      "date": "2026-10-12",
       "summary": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
       "authors": [
         "login?return_to=%2Fpytorch%2Fpytorch\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:65600975,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https:"
@@ -2304,7 +2252,7 @@
         "Python"
       ],
       "spotlight": false,
-      "stars_today": "84"
+      "stars_today": "315"
     },
     {
       "id": "2d21424a5878",
@@ -2312,7 +2260,7 @@
       "url": "https://github.com/login?return_to=%2Fpytorch%2Fpytorch\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:65600975,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending?since=daily&quot;,&quot;user_id&quot;:null}}",
       "source": "github-trending",
       "category": "project",
-      "date": "2026-10-11",
+      "date": "2026-10-12",
       "summary": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
       "authors": [
         "login?return_to=%2Fpytorch%2Fpytorch\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:65600975,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https:"
@@ -2321,7 +2269,7 @@
         "Python"
       ],
       "spotlight": false,
-      "stars_today": "84"
+      "stars_today": "315"
     },
     {
       "id": "97f786d188d4",
@@ -2329,7 +2277,7 @@
       "url": "https://github.com/login?return_to=%2Fstorytold%2Fartcraft\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:476507964,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending/rust?since=daily&quot;,&quot;user_id&quot;:null}}",
       "source": "github-trending",
       "category": "project",
-      "date": "2026-10-11",
+      "date": "2026-10-12",
       "summary": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
       "authors": [
         "login?return_to=%2Fstorytold%2Fartcraft\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:476507964,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https:"
@@ -2338,7 +2286,7 @@
         "Rust"
       ],
       "spotlight": false,
-      "stars_today": "3,222"
+      "stars_today": "2,957"
     },
     {
       "id": "1d884ccff0e1",
@@ -2346,7 +2294,7 @@
       "url": "https://github.com/login?return_to=%2Fstorytold%2Fartcraft\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:476507964,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending?since=daily&quot;,&quot;user_id&quot;:null}}",
       "source": "github-trending",
       "category": "project",
-      "date": "2026-10-11",
+      "date": "2026-10-12",
       "summary": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
       "authors": [
         "login?return_to=%2Fstorytold%2Fartcraft\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:476507964,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https:"
@@ -2355,58 +2303,7 @@
         "Rust"
       ],
       "spotlight": false,
-      "stars_today": "3,222"
-    },
-    {
-      "id": "fc10d1111709",
-      "title": "login?return_to=%2Ftensorflow%2Ftensorflow\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:45717250,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending?since=daily&quot;,&quot;user_id&quot;:null}}",
-      "url": "https://github.com/login?return_to=%2Ftensorflow%2Ftensorflow\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:45717250,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending?since=daily&quot;,&quot;user_id&quot;:null}}",
-      "source": "github-trending",
-      "category": "project",
-      "date": "2026-10-11",
-      "summary": "An Open Source Machine Learning Framework for Everyone",
-      "authors": [
-        "login?return_to=%2Ftensorflow%2Ftensorflow\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:45717250,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https:"
-      ],
-      "tags": [
-        "C++"
-      ],
-      "spotlight": false,
-      "stars_today": "26"
-    },
-    {
-      "id": "ce0517b13fda",
-      "title": "login?return_to=%2Fxiaolai%2Fthe-craft-of-selfteaching\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:175635390,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending/jupyter-notebook?since=daily&quot;,&quot;user_id&quot;:null}}",
-      "url": "https://github.com/login?return_to=%2Fxiaolai%2Fthe-craft-of-selfteaching\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:175635390,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending/jupyter-notebook?since=daily&quot;,&quot;user_id&quot;:null}}",
-      "source": "github-trending",
-      "category": "project",
-      "date": "2026-10-11",
-      "summary": "One has no future if one couldn't teach themself.",
-      "authors": [
-        "login?return_to=%2Fxiaolai%2Fthe-craft-of-selfteaching\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:175635390,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https:"
-      ],
-      "tags": [
-        "Jupyter Notebook"
-      ],
-      "spotlight": false,
-      "stars_today": "17"
-    },
-    {
-      "id": "8c988cc0c677",
-      "title": "sponsors/GLinnik21",
-      "url": "https://github.com/sponsors/GLinnik21",
-      "source": "github-trending",
-      "category": "project",
-      "date": "2026-10-11",
-      "summary": "Fast, unofficial Plex client for LG webOS TVs — native 60 fps UI, 4K HEVC/Dolby Vision, no Chromium or WebView.",
-      "authors": [
-        "sponsors"
-      ],
-      "tags": [
-        "Rust"
-      ],
-      "spotlight": false,
-      "stars_today": "99"
+      "stars_today": "2,957"
     },
     {
       "id": "e2fa6f10dc31",
@@ -2414,7 +2311,7 @@
       "url": "https://github.com/sponsors/HakanSeven12",
       "source": "github-trending",
       "category": "project",
-      "date": "2026-10-11",
+      "date": "2026-10-12",
       "summary": "A CAD application built with Rust — 2D/3D drawing, DWG/DXF support, and GPU-accelerated rendering",
       "authors": [
         "sponsors"
@@ -2423,7 +2320,24 @@
         "Rust"
       ],
       "spotlight": false,
-      "stars_today": "96"
+      "stars_today": "82"
+    },
+    {
+      "id": "6c8cde3fb78b",
+      "title": "sponsors/MadsLorentzen",
+      "url": "https://github.com/sponsors/MadsLorentzen",
+      "source": "github-trending",
+      "category": "project",
+      "date": "2026-10-12",
+      "summary": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
+      "authors": [
+        "sponsors"
+      ],
+      "tags": [
+        "Python"
+      ],
+      "spotlight": false,
+      "stars_today": "504"
     },
     {
       "id": "1c08323906ff",
@@ -2431,7 +2345,7 @@
       "url": "https://github.com/sponsors/NirDiamant",
       "source": "github-trending",
       "category": "project",
-      "date": "2026-10-11",
+      "date": "2026-10-12",
       "summary": "End-to-end, code-first tutorials for building production-grade GenAI agents. From prototype to enterprise deployment.",
       "authors": [
         "sponsors"
@@ -2449,7 +2363,7 @@
       "url": "https://github.com/sponsors/cathrynlavery",
       "source": "github-trending",
       "category": "project",
-      "date": "2026-10-11",
+      "date": "2026-10-12",
       "summary": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
       "authors": [
         "sponsors"
@@ -2458,60 +2372,78 @@
         "HTML"
       ],
       "spotlight": false,
-      "stars_today": "1,190"
+      "stars_today": "1,083"
     },
     {
-      "id": "23abe48e6399",
-      "title": "sponsors/jupyter",
-      "url": "https://github.com/sponsors/jupyter",
+      "id": "95468dd9302c",
+      "title": "sponsors/chrislgarry",
+      "url": "https://github.com/sponsors/chrislgarry",
       "source": "github-trending",
       "category": "project",
-      "date": "2026-10-11",
-      "summary": "Jupyter Interactive Notebook",
+      "date": "2026-10-12",
+      "summary": "Original Apollo 11 Guidance Computer (AGC) source code for the command and lunar modules.",
       "authors": [
         "sponsors"
       ],
       "tags": [
+        "Assembly"
+      ],
+      "spotlight": false,
+      "stars_today": "466"
+    },
+    {
+      "id": "80814da29488",
+      "title": "sponsors/farion1231",
+      "url": "https://github.com/sponsors/farion1231",
+      "source": "github-trending",
+      "category": "project",
+      "date": "2026-10-12",
+      "summary": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Grok Build &amp; Hermes Agent. Only official website: ccswitch.io",
+      "authors": [
+        "sponsors"
+      ],
+      "tags": [
+        "agent",
+        "Rust"
+      ],
+      "spotlight": false,
+      "stars_today": "385"
+    },
+    {
+      "id": "ebccaa7fcd26",
+      "title": "sponsors/lyogavin",
+      "url": "https://github.com/sponsors/lyogavin",
+      "source": "github-trending",
+      "category": "project",
+      "date": "2026-10-12",
+      "summary": "AirLLM 70B inference with single 4GB GPU",
+      "authors": [
+        "sponsors"
+      ],
+      "tags": [
+        "llm",
         "Jupyter Notebook"
       ],
       "spotlight": false,
-      "stars_today": "7"
+      "stars_today": "548"
     },
     {
-      "id": "1651b27623b3",
-      "title": "sponsors/mattpocock",
-      "url": "https://github.com/sponsors/mattpocock",
+      "id": "6f1b815eadc9",
+      "title": "sponsors/repowise-dev",
+      "url": "https://github.com/sponsors/repowise-dev",
       "source": "github-trending",
       "category": "project",
-      "date": "2026-10-11",
-      "summary": "Skills for Real Engineers. Straight from my .agents directory.",
+      "date": "2026-10-12",
+      "summary": "Codebase intelligence for AI and humans: code health scores, auto-generated docs, git analytics, dead code detection, and architectural decisions via MCP.",
       "authors": [
         "sponsors"
       ],
       "tags": [
-        "agent",
-        "Shell"
+        "detection",
+        "Python"
       ],
       "spotlight": false,
-      "stars_today": "1,736"
-    },
-    {
-      "id": "6f7b2b3e98e0",
-      "title": "sponsors/mksglu",
-      "url": "https://github.com/sponsors/mksglu",
-      "source": "github-trending",
-      "category": "project",
-      "date": "2026-10-11",
-      "summary": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
-      "authors": [
-        "sponsors"
-      ],
-      "tags": [
-        "agent",
-        "TypeScript"
-      ],
-      "spotlight": false,
-      "stars_today": "178"
+      "stars_today": "67"
     },
     {
       "id": "f512fe8165c5",
@@ -2519,7 +2451,7 @@
       "url": "https://github.com/sponsors/unslothai",
       "source": "github-trending",
       "category": "project",
-      "date": "2026-10-11",
+      "date": "2026-10-12",
       "summary": "250+ Fine-tuning &amp; RL Notebooks for text, vision, audio, embedding, TTS models.",
       "authors": [
         "sponsors"
@@ -2529,7 +2461,7 @@
         "Jupyter Notebook"
       ],
       "spotlight": false,
-      "stars_today": "11"
+      "stars_today": "5"
     }
   ]
 }
